@@ -4280,3 +4280,815 @@
 [2016-09-14 12:23:43] |PaperWeekly交流群| 三岁小孩 -> GROUP: 然而这个群里都是程序员
 [2016-09-14 12:23:56] |PaperWeekly交流群| stephen -> GROUP: 资源放出来做的人多得是，反正我会去试试
 [2016-09-14 12:24:27] |PaperWeekly交流群| 赵天雨 京都大学 -> GROUP: 还可以当multiparty的对话语料
+[2016-09-14 12:42:02] |PaperWeekly交流群| 北斗星 -> GROUP: 做成个手机版知乎就可以了呀
+[2016-09-14 12:43:04] |PaperWeekly交流群| 张俊 -> GROUP: https://github.com/paperweekly/ChatLogDigest/blob/master/PaperWeekly%E4%BA%A4%E6%B5%81%E7%BE%A4.chatlog
+[2016-09-14 12:43:31] |PaperWeekly交流群| 张俊 -> GROUP: 感兴趣的同学可以从这个repo中获取到建群以来的所有消息
+[2016-09-14 12:43:39] |PaperWeekly交流群| 张俊 -> GROUP: 感谢@碱馒头 童鞋的贡献
+[2016-09-14 12:44:05] |PaperWeekly交流群| 碱馒头 -> GROUP: 不是建群以来……是我加群以来，之前的没有……
+[2016-09-14 12:45:42] |PaperWeekly交流群| 北斗星 -> GROUP: 有qq群吗？
+[2016-09-14 12:46:28] |PaperWeekly交流群| 张俊 -> GROUP: 大家有写好的code可以commit上来
+[2016-09-14 12:47:58] |PaperWeekly交流群| 余人化石 -> GROUP: @碱馒头 苏大的？
+[2016-09-14 12:48:17] |PaperWeekly交流群| 洪谦 -> GROUP: 大家的想法非常好，我补充一点资料：stack exchange的问答数据是以CC开放协议免费下载的，每月更新，有兴趣可以研究一下对训练 bot有没有帮助 http://data.stackexchange.com
+[2016-09-14 12:49:10] |PaperWeekly交流群| 张俊 -> GROUP: @洪谦  抽取问答对？
+[2016-09-14 12:50:19] |PaperWeekly交流群| 三岁小孩 -> GROUP: 建群以来的聊天记录可以由群主提供呀
+[2016-09-14 12:50:47] |PaperWeekly交流群| 张俊 -> GROUP: 提供不了 恐怕
+[2016-09-14 12:50:58] |PaperWeekly交流群| 张俊 -> GROUP: 他这个数据是实时获取的
+[2016-09-14 12:51:04] |PaperWeekly交流群| 张俊 -> GROUP: 从他开程序的时候 开始记录这些数据
+[2016-09-14 12:51:09] |PaperWeekly交流群| 张俊 -> GROUP: 之前的拿不到。。。
+[2016-09-14 12:52:37] |PaperWeekly交流群| 洪谦 -> GROUP: @张俊 我有想过用stack exchange的素材训练生成式对话机器人，不知道和你想的一不一样。如果要用stack exchange的训练结果辅助我们抽取微信群的问答对，那我就不知道怎么解决中英文之间的障碍了。如果知乎提供开放数据下载就好了。我查一下有没有。
+[2016-09-14 12:54:47] |PaperWeekly交流群| 张俊 -> GROUP: 嗯嗯 中英文是个障碍
+[2016-09-14 12:54:58] |PaperWeekly交流群| 张俊 -> GROUP: 确实英文语料非常丰富 
+[2016-09-14 12:55:15] |PaperWeekly交流群| 张俊 -> GROUP: 不知道能不能迁移过来
+[2016-09-14 12:55:30] |PaperWeekly交流群| 张俊 -> GROUP: 请教下高手
+[2016-09-14 12:55:41] |PaperWeekly交流群| 张俊 -> GROUP: @魏勇鹏@语智云帆  
+[2016-09-14 12:56:32] |PaperWeekly交流群| mit -> GROUP: 要是能迁移过来，那岂不是一大波论文有可以有了
+[2016-09-14 12:56:49] |PaperWeekly交流群| 张俊 -> GROUP: 嗯嗯
+[2016-09-14 13:00:25] |PaperWeekly交流群| 洪谦 -> GROUP: @张俊 除了“迁移过来”，还有一个相反的思路是“迁移过去”，把中文群聊先机器翻译为英文，然后用英文模型抽取译文的问答对，间接给中文素材标注，这样计算量可能更小，效果可能更好
+[2016-09-14 13:01:09] |PaperWeekly交流群| __future__ i0.lt -> GROUP: 此时又涉及到机器翻译，那准确率不敢保证
+[2016-09-14 13:02:02] |PaperWeekly交流群| 洪谦 -> GROUP: @__future__ i0.lt 同意。请大家探讨，指正。
+[2016-09-14 13:02:27] |PaperWeekly交流群| __future__ i0.lt -> GROUP: 多一个过程，多一些误差
+[2016-09-14 13:03:19] |PaperWeekly交流群| 张博瑜 -> GROUP: 可不可以在英文上做大语料的训练，在中文上做微调
+[2016-09-14 13:03:48] |PaperWeekly交流群| 张博瑜 -> GROUP: 中文训练时，加一个映射
+[2016-09-14 13:04:15] |PaperWeekly交流群| 雨神<span class="emoji emoji2614"></span>️<span class="emoji emoji2614"></span>️<span class="emoji emoji2614"></span>️ -> GROUP: 求指点话说那个群聊天数据是怎么获取的？
+[2016-09-14 13:04:33] |PaperWeekly交流群| 张俊 -> GROUP: @洪谦  <span class="emoji emoji1f44d"></span>
+[2016-09-14 13:15:56] |PaperWeekly交流群| Danny YE -> GROUP: 感觉群里要出大事件了[嘘]
+[2016-09-14 13:36:57] |PaperWeekly交流群| 晓晖 -> GROUP: @雨神<span class="emoji emoji2614"></span>️<span class="emoji emoji2614"></span>️<span class="emoji emoji2614"></span>️ 雨神！！！<span class="emoji emoji1f64f"></span><span class="emoji emoji1f64f"></span><span class="emoji emoji1f64f"></span>膜拜一下
+[2016-09-14 13:37:46] |PaperWeekly交流群| L-Show-way -> GROUP: [强]
+[2016-09-14 13:38:05] |PaperWeekly交流群| xyz.wtf -> GROUP: @雨神<span class="emoji emoji2614"></span>️<span class="emoji emoji2614"></span>️<span class="emoji emoji2614"></span>️ 应该是挂了个微信号在web端24小时开着抓
+[2016-09-14 13:40:12] |PaperWeekly交流群| 余露-NLP -> GROUP: 需要好多台手机挂爬虫程序吧
+[2016-09-14 13:40:34] |PaperWeekly交流群| 余露-NLP -> GROUP: 小心把群给整封掉了 [Chuckle]
+[2016-09-14 13:41:20] |PaperWeekly交流群| xyz.wtf -> GROUP: 不需要很多吧
+[2016-09-14 13:41:28] |PaperWeekly交流群| xyz.wtf -> GROUP: 就一个号挂在web端
+[2016-09-14 13:46:55] |PaperWeekly交流群| Danny YE -> GROUP: PaperWeekly交流群 发送了一张图片: /cygdrive/f/git/WeixinBot-master/saved/msgimgsbydata/2016-09-14/img_1182475259846712557.jpg
+[2016-09-14 13:54:04] |PaperWeekly交流群| 魏勇鹏@语智云帆 -> GROUP: @张俊 @洪谦 可以试一下把stack exchange的数据直接MT。用于做中文的答案生成可能有一些问题。但是如果是用于问答对发现，MT的误差可能影响不大。
+[2016-09-14 13:58:06] |PaperWeekly交流群| Danny YE -> GROUP: 群里有谷歌的朋友么
+[2016-09-14 13:59:39] |PaperWeekly交流群| 张俊 -> GROUP: @魏勇鹏@语智云帆  嗯嗯
+[2016-09-14 13:59:55] |PaperWeekly交流群| 张俊 -> GROUP: <span class="emoji emoji1f44d"></span>
+[2016-09-14 14:02:06] |PaperWeekly交流群| 余露-NLP -> GROUP: Quora 的数据可以抓吗
+[2016-09-14 14:04:47] |PaperWeekly交流群| 洪谦 -> GROUP: @余露-NLP 我记得quora没有提供开放下载，你帮忙查证一下？
+[2016-09-14 14:05:05] |PaperWeekly交流群| 余露-NLP -> GROUP: 我之前查了下，也是说没有提供API
+[2016-09-14 14:08:00] |PaperWeekly交流群| 余露-NLP -> GROUP: https://github.com/scku/Quora-Crawler 2014年更新的，不知道还能不能工作
+[2016-09-14 14:08:18] |PaperWeekly交流群| 五行缺钱 -> GROUP: 可以反编译apk获取api
+[2016-09-14 14:11:57] |PaperWeekly交流群| xyz.wtf -> GROUP: 对话抽entity然后直连到一个stackoverflow+wiki+一些其他文档搞成的knowledge base辅助工具应该不错。。然后整个firefox插件web端直接标注好点过去
+[2016-09-14 14:30:17] |PaperWeekly交流群| clone -> GROUP: 有没有比较好使的公众号的微信robot？
+[2016-09-14 14:37:02] |PaperWeekly交流群| Jeremy -> GROUP: 小冰<span class="emoji emoji1f639"></span>
+[2016-09-14 14:37:20] |PaperWeekly交流群| 侯月源 -> GROUP: 图灵机器人？
+[2016-09-14 14:40:07] |PaperWeekly交流群| xyz.wtf -> GROUP: PaperWeekly交流群 发送了一张名片: {"UserName": "@06b09e3964bbeea7ca643009b9e2d83f", "Province": "\u4e0a\u6d77", "City": "\u4e2d\u56fd", "Scene": 17, "QQNum": 0, "Content": "", "Alias": "xiaoirobot", "OpCode": 0, "Signature": "", "Ticket": "", "Sex": 0, "NickName": "\u5c0fi\u673a\u5668\u4eba", "AttrStatus": 0, "VerifyFlag": 24}
+[2016-09-14 14:40:07] |PaperWeekly交流群| xyz.wtf -> GROUP: 这个似乎做的不错
+[2016-09-14 14:40:39] |PaperWeekly交流群| __future__ i0.lt -> GROUP: 弱弱的问一句，，这种机器人的卖点是什么，怎么赢利
+[2016-09-14 14:41:10] |PaperWeekly交流群| 北斗星 -> GROUP: 谁做关键词提取@所有人
+[2016-09-14 14:41:37] |PaperWeekly交流群| doing -> GROUP: 用tf-idf？
+[2016-09-14 14:41:42] |PaperWeekly交流群| 北斗星 -> GROUP: 我用lda对query，效果不好
+[2016-09-14 14:41:51] |PaperWeekly交流群| 北斗星 -> GROUP: 这个太基础了
+[2016-09-14 14:42:31] |PaperWeekly交流群| xyz.wtf -> GROUP: @__future__ i0.lt 还是挺赚钱的。。
+[2016-09-14 14:43:01] |PaperWeekly交流群| Chung Ho Lam -> GROUP: http://mp.weixin.qq.com/s?__biz=MzA4OTk5OTQzMg==&amp;mid=2449231349&amp;idx=1&amp;sn=395049b105cc1da9213faa56c7cd79a5&amp;scene=4#wechat_redirect
+[2016-09-14 14:43:16] |PaperWeekly交流群| xyz.wtf -> GROUP: 小i这家收费挺高的。
+[2016-09-14 14:43:28] |PaperWeekly交流群| __future__ i0.lt -> GROUP: @xyz.wtf 能不能告诉下模式
+[2016-09-14 14:45:01] |PaperWeekly交流群| xyz.wtf -> GROUP: PaperWeekly交流群 发送了一张图片: /cygdrive/f/git/WeixinBot-master/saved/msgimgsbydata/2016-09-14/img_2127532073188216437.jpg
+[2016-09-14 14:45:21] |PaperWeekly交流群| xyz.wtf -> GROUP: 他们按api调用次数收费
+[2016-09-14 14:45:21] |PaperWeekly交流群| xyz.wtf -> GROUP: 如果我没记错
+[2016-09-14 14:45:43] |PaperWeekly交流群| __future__ i0.lt -> GROUP: 原来如此
+[2016-09-14 14:47:16] |PaperWeekly交流群| xyz.wtf -> GROUP: 也有给电商做的那种，单做系统就卖几千万吧
+[2016-09-14 14:48:27] |PaperWeekly交流群| xyz.wtf -> GROUP: 有的走巨大量、每件交易赚钱又少的那种，有个这样的辅助其实还是比较方便的。。
+[2016-09-14 17:22:58] |PaperWeekly交流群| 斯诺-相关性-sm -> GROUP: 问大家一个问题，seq2seq 预测时，会出现单词重复多次，这个怎么解决？
+[2016-09-14 17:24:06] |PaperWeekly交流群| 斯诺-相关性-sm -> GROUP: 比如：  手机 充电 器 自然 自然 自然
+[2016-09-14 17:25:07] |PaperWeekly交流群| 斯诺-相关性-sm -> GROUP: 比如： 电子 书 设计 设计 教程  
+[2016-09-14 17:25:25] |PaperWeekly交流群| 斯诺-相关性-sm -> GROUP: 这都是生产的语句，不知道怎么破，求大牛们指点
+[2016-09-14 17:28:57] |PaperWeekly交流群| 魏勇鹏@语智云帆 -> GROUP: @斯诺-相关性-sm 参照 arXiv:1601.04811 Modeling Coverage for Neural Machine Translation
+[2016-09-14 17:30:53] |PaperWeekly交流群| 洪谦 -> GROUP: 小冰逆天了
+[2016-09-14 17:30:59] |PaperWeekly交流群| 洪谦 -> GROUP: PaperWeekly交流群 发送了一张图片: /cygdrive/f/git/WeixinBot-master/saved/msgimgsbydata/2016-09-14/img_184438548439845282.jpg
+[2016-09-14 17:31:27] |PaperWeekly交流群| 洪谦 -> GROUP: PaperWeekly交流群 发送了一张图片: /cygdrive/f/git/WeixinBot-master/saved/msgimgsbydata/2016-09-14/img_7185525466620095868.jpg
+[2016-09-14 17:31:55] |PaperWeekly交流群| 王鑫同-DL-Scut -> GROUP: 小冰能说话了？
+[2016-09-14 17:32:11] |PaperWeekly交流群| 洪谦 -> GROUP: 可以
+[2016-09-14 17:32:41] |PaperWeekly交流群| llo5t@ms -> GROUP: 一年前就可以啦~
+[2016-09-14 17:32:41] |PaperWeekly交流群| 小李 -> GROUP: PaperWeekly交流群 发送了一张图片: /cygdrive/f/git/WeixinBot-master/saved/msgimgsbydata/2016-09-14/img_8515373243829481084.jpg
+[2016-09-14 17:33:01] |PaperWeekly交流群| Danny -> GROUP: PaperWeekly交流群 发了一个动画表情，点击下面链接查看: 未知
+[2016-09-14 17:33:18] |PaperWeekly交流群| Danny -> GROUP: PaperWeekly交流群 发了一个动画表情，点击下面链接查看: 未知
+[2016-09-14 17:33:19] |PaperWeekly交流群| 小李 -> GROUP: PaperWeekly交流群 发送了一张图片: /cygdrive/f/git/WeixinBot-master/saved/msgimgsbydata/2016-09-14/img_5599481949462344937.jpg
+[2016-09-14 17:33:19] |PaperWeekly交流群| Danny -> GROUP: PaperWeekly交流群 撤回了一条消息
+[2016-09-14 17:33:21] |PaperWeekly交流群| Danny -> GROUP: PaperWeekly交流群 撤回了一条消息
+[2016-09-14 17:33:30] |PaperWeekly交流群| 小李 -> GROUP: 太污了
+[2016-09-14 17:33:38] |PaperWeekly交流群| 小李 -> GROUP: 小冰
+[2016-09-14 17:33:58] |PaperWeekly交流群| llo5t@ms -> GROUP: 能告诉我你问的啥嘛。。。？
+[2016-09-14 17:34:10] |PaperWeekly交流群| 小李 -> GROUP: 打死都不说
+[2016-09-14 17:34:43] |PaperWeekly交流群| llo5t@ms -> GROUP: 小李子，乖
+[2016-09-14 17:37:21] |PaperWeekly交流群| 王鑫同-DL-Scut -> GROUP: 说什么她能说话
+[2016-09-14 17:38:03] |PaperWeekly交流群| 小李 -> GROUP: 唱首歌，大概唱的几率有1/10
+[2016-09-14 17:38:09] |PaperWeekly交流群| 小李 -> GROUP: 感觉很自然
+[2016-09-14 17:38:19] |PaperWeekly交流群| llo5t@ms -> GROUP: 你自己说语音就好
+[2016-09-14 18:20:48] |PaperWeekly交流群| 斯诺-相关性-sm -> GROUP: @魏勇鹏@语智云帆 谢谢
+[2016-09-14 18:21:34] |PaperWeekly交流群| SYSTEM -> 碱馒头: 张俊邀请大鱼小鱼等鱼加入了群聊
+[2016-09-14 18:21:35] |PaperWeekly交流群| SYSTEM -> 碱馒头: 大鱼小鱼等鱼与群里其他人都不是微信朋友关系，请注意隐私安全
+[2016-09-14 18:27:39] |PaperWeekly交流群| 北斗星 -> GROUP: crf++,谁改过
+[2016-09-14 18:29:10] |PaperWeekly交流群| Andy 上海.下岗 -> GROUP: 为什么要改
+[2016-09-14 18:29:51] |PaperWeekly交流群| 北斗星 -> GROUP: 提高性能，引入新的特征
+[2016-09-14 18:34:04] |PaperWeekly交流群| 老淘 -> GROUP: PaperWeekly交流群 分享了一个链接: {"url": "http://m.weibo.cn/status/4018939535395597?sourceType=weixin&amp;from=1069195010&amp;wm=9006_2001", "appname": "\u5fae\u535a", "description": "RNN said\uff1a\u5df4\u897f\u4e9a\u6d32\u676f\u5c0f\u7ec4\u51fa\u7ebf\uff01", "title": "\u5206\u4eab \u4e15\u5b50 \u7684\u5fae\u535a"}
+[2016-09-14 18:34:10] |PaperWeekly交流群| 老淘 -> GROUP: [呲牙]
+[2016-09-14 18:34:19] |PaperWeekly交流群| 老淘 -> GROUP: PaperWeekly交流群 撤回了一条消息
+[2016-09-14 18:34:27] |PaperWeekly交流群| 老淘 -> GROUP: PaperWeekly交流群 撤回了一条消息
+[2016-09-14 18:35:16] |PaperWeekly交流群| . -> GROUP: 哪位有斯坦福训练好的glove词向量？求分享一份，官网打不开[握手]
+[2016-09-14 18:36:08] |PaperWeekly交流群| 老淘 -> GROUP: PaperWeekly交流群 分享了一个链接: {"url": "http://m.weibo.cn/status/4018939535395597?sourceType=weixin&amp;from=1069195010&amp;wm=9006_2001", "appname": "\u5fae\u535a", "description": "RNN said\uff1a\u5df4\u897f\u4e9a\u6d32\u676f\u5c0f\u7ec4\u51fa\u7ebf\uff01", "title": "\u5206\u4eab \u4e15\u5b50 \u7684\u5fae\u535a"}
+[2016-09-14 18:36:17] |PaperWeekly交流群| 老淘 -> GROUP: [呲牙]
+[2016-09-14 18:45:49] |PaperWeekly交流群| 王哲 -> GROUP: 新特征改模板就可以了吧
+[2016-09-14 21:58:44] |PaperWeekly交流群| 明昊 NLP DNN -> GROUP: 请问各位有用syntaxnet吗：）
+[2016-09-14 22:05:51] |PaperWeekly交流群| daiwk -> GROUP: 之前玩过一小段时间
+[2016-09-14 22:07:27] |PaperWeekly交流群| 明昊 NLP DNN -> GROUP: 请问你有没有用 txt的方式输入呢
+[2016-09-14 22:07:33] |PaperWeekly交流群| 明昊 NLP DNN -> GROUP: 不是用echo
+[2016-09-14 22:08:08] |PaperWeekly交流群| 明昊 NLP DNN -> GROUP: 因为想处理多个文件[愉快]
+[2016-09-14 22:19:52] |PaperWeekly交流群| daiwk -> GROUP: cat *就可以吧。。
+[2016-09-14 22:26:52] |PaperWeekly交流群| 明昊 NLP DNN -> GROUP: 额 你有试过吗用cat*处理多个句子
+[2016-09-14 22:27:24] |PaperWeekly交流群| SYSTEM -> 碱馒头: 张俊邀请Jenny加入了群聊
+[2016-09-14 22:27:24] |PaperWeekly交流群| SYSTEM -> 碱馒头: Jenny与群里其他人都不是微信朋友关系，请注意隐私安全
+[2016-09-14 23:28:38] |PaperWeekly交流群| daiwk -> GROUP: 很久以前装的。。记不清了。环境丢了。。我重新装一个看看
+[2016-09-15 00:20:53] |PaperWeekly交流群| 明昊 NLP DNN -> GROUP: 好哦@daiwk 
+[2016-09-15 00:32:56] |PaperWeekly交流群| daiwk -> GROUP: PaperWeekly交流群 发送了一张图片: /cygdrive/f/git/WeixinBot-master/saved/msgimgsbydata/2016-09-15/img_3414736493859222910.jpg
+[2016-09-15 01:11:38] |PaperWeekly交流群| 明昊 NLP DNN -> GROUP: thx！方便看看test.txt 和 out.txt的格式吗
+[2016-09-15 01:11:53] |PaperWeekly交流群| 明昊 NLP DNN -> GROUP: @daiwk 
+[2016-09-15 01:12:33] |PaperWeekly交流群| daiwk -> GROUP: 已经cat了 输入就三行输出就每个句子的那棵树
+[2016-09-15 01:14:06] |PaperWeekly交流群| daiwk -> GROUP: 输入要是utf8的
+[2016-09-15 01:17:18] |PaperWeekly交流群| 明昊 NLP DNN -> GROUP: 每行一个句子是吧 直到该句子结束再换行
+[2016-09-15 01:18:24] |PaperWeekly交流群| 明昊 NLP DNN -> GROUP: 多谢@daiwk 
+[2016-09-15 01:20:46] |PaperWeekly交流群| daiwk -> GROUP: 恩
+[2016-09-15 01:46:16] |PaperWeekly交流群| __future__ i0.lt -> GROUP: PaperWeekly交流群 发了一个动画表情，点击下面链接查看: http://emoji.qpic.cn/wx_emoji/ria5TW1Bu5oUJowmZMGFFjDApQGTl0QQKXPbE9OTibHaQfbPV5IlbqtQ/
+[2016-09-15 04:53:58] |PaperWeekly交流群| 郭同jet<span class="emoji emoji26a1"></span><span class="emoji emoji1f48e"></span> -> GROUP: PaperWeekly交流群 发送了一张图片: /cygdrive/f/git/WeixinBot-master/saved/msgimgsbydata/2016-09-15/img_8917283447406431929.jpg
+[2016-09-15 04:54:22] |PaperWeekly交流群| 郭同jet<span class="emoji emoji26a1"></span><span class="emoji emoji1f48e"></span> -> GROUP: 一直不太清楚为什么这张图的右边部分，WXYZ也作为输入是怎么回事？望大神解答下[疑问]
+[2016-09-15 05:37:03] |PaperWeekly交流群| 褚则伟-DL-NLP -> GROUP: 说明上一个output symbol和目前hidden state一起输入下一个RNN cell
+[2016-09-15 05:37:12] |PaperWeekly交流群| 褚则伟-DL-NLP -> GROUP: 我想是这样
+[2016-09-15 05:37:26] |PaperWeekly交流群| 褚则伟-DL-NLP -> GROUP: 你可以把下面的尖头移到上面的previous output
+[2016-09-15 06:08:21] |PaperWeekly交流群| 咖！ -> GROUP: 是的
+[2016-09-15 06:08:44] |PaperWeekly交流群| 咖！ -> GROUP: 典型的seq2seq
+[2016-09-15 06:09:20] |PaperWeekly交流群| 咖！ -> GROUP: time step k-1 的输出作为 time k的输入
+[2016-09-15 06:56:40] |PaperWeekly交流群| SYSTEM -> 碱馒头: Neo邀请晓强加入了群聊
+[2016-09-15 06:56:41] |PaperWeekly交流群| SYSTEM -> 碱馒头: 晓强与群里其他人都不是微信朋友关系，请注意隐私安全
+[2016-09-15 08:48:48] |PaperWeekly交流群| 张景远@中科院 -> GROUP: 右边就是一个语言模型嘛
+[2016-09-15 09:33:54] |PaperWeekly交流群| 张俊 -> GROUP: 各位 中秋节快乐！
+[2016-09-15 09:35:46] |PaperWeekly交流群| 北斗星 -> GROUP: PaperWeekly交流群 发了一个动画表情，点击下面链接查看: http://emoji.qpic.cn/wx_emoji/RSMpGIeht4ZLw4QMfE8LhBDsVLibXptiaHmk40Naxn8yHaWxx2DUh1TQ/
+[2016-09-15 09:37:49] |PaperWeekly交流群| Rocky -> GROUP: 中秋快乐！
+[2016-09-15 09:39:19] |PaperWeekly交流群| Iris -> GROUP: PaperWeekly交流群 发了一个动画表情，点击下面链接查看: http://emoji.qpic.cn/wx_emoji/OnYpCricuNka0SibbUnBHFrZuh6j9aBhbKVwvXOh6APBnwL5gQ8zv4ng/
+[2016-09-15 09:39:46] |PaperWeekly交流群| 王伟 -> GROUP: 中秋快乐
+[2016-09-15 09:39:57] |PaperWeekly交流群| 张琨 -> GROUP: 中秋快乐
+[2016-09-15 09:42:56] |PaperWeekly交流群| 李加 -> GROUP: 中秋快乐
+[2016-09-15 09:44:53] |PaperWeekly交流群| 陌生人 -> GROUP: 中秋快乐
+[2016-09-15 09:46:24] |PaperWeekly交流群| 王宝鑫-科大讯飞 -> GROUP: 中秋快乐
+[2016-09-15 09:46:36] |PaperWeekly交流群| Xiaonan -> GROUP: 中秋快乐
+[2016-09-15 09:47:07] |PaperWeekly交流群| wjq再不斩 -> GROUP: 中秋快乐
+[2016-09-15 09:49:15] |PaperWeekly交流群| 叶正 -> GROUP: 中秋快乐
+[2016-09-15 09:50:01] |PaperWeekly交流群| 积翠如云 -> GROUP: 中秋快乐～！<span class="emoji emoji1f389"></span><span class="emoji emoji1f389"></span>
+[2016-09-15 09:50:07] |PaperWeekly交流群| 李不浪 -> GROUP: 大家中秋节快乐~
+[2016-09-15 09:54:05] |PaperWeekly交流群| 子楠 -> GROUP: 中秋快乐
+[2016-09-15 10:04:00] |PaperWeekly交流群| tiny -> GROUP: 中秋快乐
+[2016-09-15 10:11:30] |PaperWeekly交流群| 阿靖 -> GROUP: 中秋快乐
+[2016-09-15 10:12:22] |PaperWeekly交流群| 侯月源 -> GROUP: 各位中秋快乐
+[2016-09-15 10:12:37] |PaperWeekly交流群| 侯月源 -> GROUP: 群主没有红包不真诚
+[2016-09-15 10:12:52] |PaperWeekly交流群| 吴学阳 -> GROUP: 哈哈哈中秋快乐！
+[2016-09-15 10:13:18] |PaperWeekly交流群| SYSTEM -> 碱馒头: 收到红包，请在手机上查看
+[2016-09-15 10:13:41] |PaperWeekly交流群| 积翠如云 -> GROUP: [鼓掌][鼓掌][鼓掌]
+[2016-09-15 10:13:41] |PaperWeekly交流群| 曹东岩 -> GROUP: (⊙o⊙)哇
+[2016-09-15 10:13:50] |PaperWeekly交流群| 积翠如云 -> GROUP: PaperWeekly交流群 发了一个动画表情，点击下面链接查看: http://emoji.qpic.cn/wx_emoji/ia2megiaUtAAzbkPfibqwQ3BKyaia9OfHibvUcuzqO0oqc4p4l3e8Xk8Ttg/
+[2016-09-15 10:13:58] |PaperWeekly交流群| doing -> GROUP: 请接龙
+[2016-09-15 10:14:01] |PaperWeekly交流群| __future__ i0.lt -> GROUP: PaperWeekly交流群 发了一个动画表情，点击下面链接查看: http://emoji.qpic.cn/wx_emoji/rfmlsleYrcXspEp9MdumYgfsQbI7UauMGP6jdyR4YdbomzKlIumia3A/
+[2016-09-15 10:14:03] |PaperWeekly交流群| 黄飞 -> GROUP: 老板  没抢到
+[2016-09-15 10:14:12] |PaperWeekly交流群| __future__ i0.lt -> GROUP: PaperWeekly交流群 发了一个动画表情，点击下面链接查看: http://emoji.qpic.cn/wx_emoji/dmoEjBTuEKGbraI1ScUXIeicnBBtg7SZy6IEb2abDVfiaiaibOibeIG9CBg/
+[2016-09-15 10:15:36] |PaperWeekly交流群| 侯月源 -> GROUP: 我去，我居然错过了
+[2016-09-15 10:16:20] |PaperWeekly交流群| 张俊 -> GROUP: PaperWeekly交流群 分享了一个链接: {"url": "http://arxiv.org/abs/1609.04309", "appname": "\u672a\u77e5", "description": "http://arxiv.org/abs/1609.04309", "title": "Efficient softmax approximation for GPUs. (arXiv:1609.04309v1 [cs.CL])"}
+[2016-09-15 10:16:20] |PaperWeekly交流群| 张俊 -> GROUP: 今日arxiv cs.cl paper推荐 来自facebook ai research的工作 softmax优化
+[2016-09-15 10:23:41] |PaperWeekly交流群| SYSTEM -> 碱馒头: 收到红包，请在手机上查看
+[2016-09-15 10:28:12] |PaperWeekly交流群| brucejin  -> GROUP: 猎头呢
+[2016-09-15 10:30:41] |PaperWeekly交流群| 飞鱼 -> GROUP: 这么速度
+[2016-09-15 10:31:11] |PaperWeekly交流群| 叶正 -> GROUP: 猎头逢年过节没得还得发红包[呲牙]
+[2016-09-15 10:31:25] |PaperWeekly交流群| 叶正 -> GROUP: 还得学机器学习
+[2016-09-15 10:32:21] |PaperWeekly交流群| 张俊 -> GROUP: 市场对猎头的要求越来越高
+[2016-09-15 10:32:27] |PaperWeekly交流群| 张俊 -> GROUP: 综合型人才
+[2016-09-15 10:33:06] |PaperWeekly交流群| ~~~~~ -> GROUP: 红包又错过了
+[2016-09-15 10:33:58] |PaperWeekly交流群| SYSTEM -> 碱馒头: 收到红包，请在手机上查看
+[2016-09-15 10:34:22] |PaperWeekly交流群| 侯月源 -> GROUP: 谢谢老板
+[2016-09-15 10:35:18] |PaperWeekly交流群| doing -> GROUP: 感觉没打开手机就错过了几个亿
+[2016-09-15 10:37:47] |PaperWeekly交流群| brucejin  -> GROUP: 现在需要猎头给大家送福利啦
+[2016-09-15 10:38:05] |PaperWeekly交流群| 飞鱼 -> GROUP: 红包又错过了
+[2016-09-15 10:38:05] |PaperWeekly交流群| Chen -> GROUP: 现在需要猎头给大家送福利啦
+[2016-09-15 10:40:45] |PaperWeekly交流群| 张源源 -> GROUP: 现在需要猎头给大家送福利啦[偷笑]
+[2016-09-15 10:40:57] |PaperWeekly交流群| 我要改名 -> GROUP: 现在需要猎头给大家送福利啦
+[2016-09-15 10:41:20] |PaperWeekly交流群| doing -> GROUP: @Danny YE 现在需要猎头给大家送福利啦
+[2016-09-15 10:42:11] |PaperWeekly交流群| 飞鱼 -> GROUP: 现在需要猎头给大家送福利啦
+[2016-09-15 10:42:24] |PaperWeekly交流群| 小冯 -> GROUP: 现在需要猎头给大家送福利啦
+[2016-09-15 10:42:24] |PaperWeekly交流群| 我要改名 -> GROUP: 每个群都有个Danny
+[2016-09-15 10:42:29] |PaperWeekly交流群| 斯诺-相关性-sm -> GROUP: 现在需要猎头给大家送福利啦
+[2016-09-15 10:42:37] |PaperWeekly交流群| 我要改名 -> GROUP: 是不是猎头都叫这名字
+[2016-09-15 10:42:55] |PaperWeekly交流群| Chen -> GROUP: 会不会都是同一个猎头
+[2016-09-15 10:44:10] |PaperWeekly交流群| 我要改名 -> GROUP: 不知道，我看了qq号，不是同一个qq号
+[2016-09-15 10:44:19] |PaperWeekly交流群| 我要改名 -> GROUP: 也许换了个马甲
+[2016-09-15 10:44:52] |PaperWeekly交流群| doing -> GROUP: 和淘宝的卖QQ号的商家有战略合作
+[2016-09-15 10:45:20] |PaperWeekly交流群| 我要改名 -> GROUP: 有个朋友，qq，微信，脉脉上有联系的猎头有两百多个
+[2016-09-15 10:45:24] |PaperWeekly交流群| 我要改名 -> GROUP: [偷笑][偷笑]
+[2016-09-15 10:49:26] |PaperWeekly交流群| SYSTEM -> 碱馒头: 收到红包，请在手机上查看
+[2016-09-15 10:49:35] |PaperWeekly交流群| Danny -> GROUP: 刚看到
+[2016-09-15 10:49:48] |PaperWeekly交流群| Danny -> GROUP: 迟到的红包
+[2016-09-15 10:49:54] |PaperWeekly交流群| 李不浪 -> GROUP: PaperWeekly交流群 发了一个动画表情，点击下面链接查看: http://emoji.qpic.cn/wx_emoji/5ndZ8zMicl0rpuTWr0O8Gu33orf0SNm4Bz5RHUxFpAI3JO7HUthvCQw/
+[2016-09-15 10:51:46] |PaperWeekly交流群| brucejin  -> GROUP: 以后猎头哥哥 逢年过节 周末休息 红包都拉一发，如果大家不高兴就来两发，没有什么事是红包不能解决的。--- 尼古拉斯 · 赵四
+[2016-09-15 10:53:53] |PaperWeekly交流群| Michael -> GROUP: @Danny YE 猎头哥哥发的太少了，群里有479个都可能成为Candidate呢[偷笑]
+[2016-09-15 11:00:36] |PaperWeekly交流群| Danny -> GROUP: [害羞]
+[2016-09-15 11:32:19] |PaperWeekly交流群| 张俊 -> GROUP: PaperWeekly交流群 分享了一个链接: {"url": "http://m.weibo.cn/status/4019924193574458?wm=3333_2001&amp;from=1069193010&amp;sourcetype=weixin", "appname": "\u5fae\u535a", "description": "CMU SPEECH Team\u7684\u4e3b\u9875...", "title": "\u5206\u4eab PaperWeekly \u7684\u5fae\u535a"}
+[2016-09-15 11:32:31] |PaperWeekly交流群| 张俊 -> GROUP: CMU SPEECH Team的主页，包括他们的开源软件Yoda和publication及其开源实现。 http://t.cn/Rc6k5pU
+[2016-09-15 11:32:47] |PaperWeekly交流群| 张俊 -> GROUP: PaperWeekly交流群 分享了一个链接: {"url": "http://m.weibo.cn/status/4019925146059985?wm=3333_2001&amp;from=1069193010&amp;sourcetype=weixin", "appname": "\u5fae\u535a", "description": "SIGDIAL 2016 Accepted...", "title": "\u5206\u4eab PaperWeekly \u7684\u5fae\u535a"}
+[2016-09-15 11:33:03] |PaperWeekly交流群| 张俊 -> GROUP: SIGDIAL 2016 Accepted Paper 放出来了，对spoken dialogue感兴趣的同学有福了 http://t.cn/RtDqmYX
+[2016-09-15 11:38:24] |PaperWeekly交流群| 余露-NLP -> GROUP: 中秋福利啊～
+[2016-09-15 12:17:39] |PaperWeekly交流群| 北斗星 -> GROUP: 哪位改过crf+c
+[2016-09-15 12:19:19] |PaperWeekly交流群| 槟糖 -> GROUP: 改特征模板还是模型
+[2016-09-15 12:21:21] |PaperWeekly交流群| 北斗星 -> GROUP: 模板
+[2016-09-15 12:43:39] |PaperWeekly交流群| 槟糖 -> GROUP: crf++有配套教程，看看就行，关键在于特征构建
+[2016-09-15 13:08:55] |PaperWeekly交流群| Danny -> GROUP: PaperWeekly交流群 发送了一张图片: /cygdrive/f/git/WeixinBot-master/saved/msgimgsbydata/2016-09-15/img_4245887919353516469.jpg
+[2016-09-15 13:09:09] |PaperWeekly交流群| Danny -> GROUP: 中秋大福利
+[2016-09-15 13:09:48] |PaperWeekly交流群| brucejin  -> GROUP: 要发红包才可以发广告
+[2016-09-15 13:10:26] |PaperWeekly交流群| Danny -> GROUP: 精神和物质都要有
+[2016-09-15 13:10:35] |PaperWeekly交流群| brucejin  -> GROUP: 如果大家认为一个红包不够，那么猎头需要再发一个，这个世界没有什么红包解决不了的问题
+[2016-09-15 13:10:41] |PaperWeekly交流群| Danny -> GROUP: 每次都是你
+[2016-09-15 13:10:56] |PaperWeekly交流群| brucejin  -> GROUP: 哈哈哈 当然
+[2016-09-15 13:12:28] |PaperWeekly交流群| Danny -> GROUP: [害羞]
+[2016-09-15 13:17:51] |PaperWeekly交流群| brucejin  -> GROUP: PaperWeekly交流群 发了一个动画表情，点击下面链接查看: http://emoji.qpic.cn/wx_emoji/3iaGvCSDicnahdepwNanRIiaLUgKHrv25yI4kcEmLPePOShr3dpS1rj0g/
+[2016-09-15 13:18:26] |PaperWeekly交流群| Danny -> GROUP: PaperWeekly交流群 发了一个动画表情，点击下面链接查看: http://emoji.qpic.cn/wx_emoji/kUGTHiaN7CRM1LkWydG3uT8CGqy2iaEmW3G3OJnVz6McbFM7GIVLGC0Q/
+[2016-09-15 13:18:36] |PaperWeekly交流群| Danny -> GROUP: PaperWeekly交流群 发了一个动画表情，点击下面链接查看: http://emoji.qpic.cn/wx_emoji/E7A7o4zaawRJKD6icY28C0Qqf8rpo5uGNqUQCUPQSenZXJt2cbmZgVQ/
+[2016-09-15 13:19:38] |PaperWeekly交流群| 三岁小孩 -> GROUP: 是呀，有了红包才会有跳槽
+[2016-09-15 13:20:24] |PaperWeekly交流群| Danny -> GROUP: PaperWeekly交流群 发了一个动画表情，点击下面链接查看: http://emoji.qpic.cn/wx_emoji/cmCtWwe6qeeticSoiaELUibaFJs6lvXick8Sp5kibuw98PxuHkuq1qibcAFw/
+[2016-09-15 13:23:30] |PaperWeekly交流群| BuGoNee -> GROUP: 如果大家认为一个红包不够，那么猎头需要再发一个，这个世界没有什么红包解决不了的问题
+[2016-09-15 13:25:08] |PaperWeekly交流群| 零零發 -> GROUP: 没有什么是红包解决不了的，一个不行就发两个，两个不行就四个。。
+[2016-09-15 13:25:24] |PaperWeekly交流群| 零零發 -> GROUP: @Danny YE
+[2016-09-15 13:26:19] |PaperWeekly交流群| Danny -> GROUP: 介绍一个私信发100的[害羞]
+[2016-09-15 13:27:10] |PaperWeekly交流群| Danny -> GROUP: PaperWeekly交流群 发送了一张图片: /cygdrive/f/git/WeixinBot-master/saved/msgimgsbydata/2016-09-15/img_787073285593523051.jpg
+[2016-09-15 13:27:35] |PaperWeekly交流群| Danny -> GROUP: 全部家当，都给你们了，再要就得去卖血了
+[2016-09-15 13:27:51] |PaperWeekly交流群| SYSTEM -> 碱馒头: 收到红包，请在手机上查看
+[2016-09-15 13:28:07] |PaperWeekly交流群| brucejin  -> GROUP: 刚才我还救济了他1.68元
+[2016-09-15 13:28:09] |PaperWeekly交流群| brucejin  -> GROUP: 这个猎头有点惨
+[2016-09-15 13:28:59] |PaperWeekly交流群| 子楠 -> GROUP: 谢谢<span class="emoji emoji1f388"></span>
+[2016-09-15 13:29:50] |PaperWeekly交流群| Danny -> GROUP: @子楠  呵呵
+[2016-09-15 13:30:29] |PaperWeekly交流群| Danny -> GROUP: 太不公平，拉黑也可以抢红包啊
+[2016-09-15 13:31:19] |PaperWeekly交流群| Danny -> GROUP: PaperWeekly交流群 撤回了一条消息
+[2016-09-15 14:48:49] |PaperWeekly交流群| __future__ i0.lt -> GROUP: PaperWeekly交流群 发了一段小视频: /cygdrive/f/git/WeixinBot-master/saved/videos/2016-09-15/video_2819912931200297726.mp4
+[2016-09-15 15:05:15] |PaperWeekly交流群| ♚Igor -> GROUP: 大家都用什么vps，有推荐吗？
+[2016-09-15 15:08:00] |PaperWeekly交流群| 老淘 -> GROUP: https://m.do.co/c/66f2d512ee23 
+[2016-09-15 15:10:40] |PaperWeekly交流群| ♚Igor -> GROUP: 多谢，好像只有包月的套餐
+[2016-09-15 15:12:14] |PaperWeekly交流群| 侯月源 -> GROUP: 搬瓦工
+[2016-09-15 15:16:33] |PaperWeekly交流群| xundong wu -> GROUP: 搬瓦工挺好
+[2016-09-15 15:16:44] |PaperWeekly交流群| xundong wu -> GROUP: 很便宜
+[2016-09-15 15:18:18] |PaperWeekly交流群| ♚Igor -> GROUP: 最便宜的现在是19.9$
+[2016-09-15 15:18:29] |PaperWeekly交流群| ♚Igor -> GROUP: 一年
+[2016-09-15 15:19:01] |PaperWeekly交流群| 赤壁 -> GROUP: 蓝灯不好么。
+[2016-09-15 15:19:57] |PaperWeekly交流群| ♚Igor -> GROUP: 没用过……
+[2016-09-15 15:20:43] |PaperWeekly交流群| 赤壁 -> GROUP: lantern，可免费可收费，用着还行。
+[2016-09-15 15:22:25] |PaperWeekly交流群| ♚Igor -> GROUP: 之前也用类似的，有时不太稳定，还是自己搭个梯子试试
+[2016-09-15 15:23:33] |PaperWeekly交流群| ♚Igor -> GROUP: 用了下亚马逊免费的感觉不错，但是一个月免费就15g
+[2016-09-15 15:28:20] |PaperWeekly交流群| 老淘 -> GROUP: Digital ocean 一个月1000g, 5$
+[2016-09-15 15:28:45] |PaperWeekly交流群| 老淘 -> GROUP: 适合小团队用
+[2016-09-15 17:58:38] |PaperWeekly交流群| 赵云峰 机器之心<span class="emoji emoji2122"></span> -> GROUP: PaperWeekly交流群 分享了一个链接: {"url": "http://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&amp;mid=2650719170&amp;idx=1&amp;sn=68b6b7f87677f5287b6e5a306409653b&amp;chksm=871b07bcb06c8eaa0a649d7d3fd7963423dd4ea51b6e7711bc63653a528fbf196566345ae064&amp;scene=1&amp;srcid=09153R7E4cqmhQyXcldc9iJy#rd", "appname": "\u672a\u77e5", "description": "Fjodor Van Veen \u5199\u51fa\u4e86\u4e00\u7bc7\u5305\u542b\u4e86\u5927\u91cf\u67b6\u6784\uff08\u4e3b\u8981\u662f\u795e\u7ecf\u7f51\u7edc\uff09\u7684\u76d8\u70b9\u6027\u6587\u7ae0\uff0c\u5e76\u7ed8\u5236\u4e86\u76f4\u89c2\u7684\u793a\u610f\u56fe\u8fdb\u884c\u8bf4\u660e\u3002", "title": "\u91cd\u78c5 | \u56fe\u6587\u5e76\u8302\u7684\u795e\u7ecf\u7f51\u7edc\u67b6\u6784\u5927\u76d8\u70b9\uff1a\u4ece\u57fa\u672c\u539f\u7406\u5230\u884d\u751f\u5173\u7cfb"}
+[2016-09-15 20:23:16] |PaperWeekly交流群| Rocky -> GROUP: PaperWeekly交流群 发送了一张图片: /cygdrive/f/git/WeixinBot-master/saved/msgimgsbydata/2016-09-15/img_2121010577883703695.jpg
+[2016-09-15 20:23:27] |PaperWeekly交流群| Rocky -> GROUP: 有人赏月吗
+[2016-09-15 20:24:05] |PaperWeekly交流群| doing -> GROUP: PaperWeekly交流群 发送了一张图片: /cygdrive/f/git/WeixinBot-master/saved/msgimgsbydata/2016-09-15/img_2610269501412828489.jpg
+[2016-09-15 20:24:25] |PaperWeekly交流群| Chen -> GROUP: 好漂亮的月呀
+[2016-09-15 20:24:46] |PaperWeekly交流群| 张俊 -> GROUP: <span class="emoji emoji1f44d"></span>
+[2016-09-15 20:32:56] |PaperWeekly交流群| λq⃑ -> GROUP: PaperWeekly交流群 发送了一张图片: /cygdrive/f/git/WeixinBot-master/saved/msgimgsbydata/2016-09-15/img_1103677064184513721.jpg
+[2016-09-15 20:33:29] |PaperWeekly交流群| SYSTEM -> 碱馒头: 褚则伟-DL-NLP邀请洋加入了群聊
+[2016-09-15 20:33:29] |PaperWeekly交流群| SYSTEM -> 碱馒头: 洋与群里其他人都不是微信朋友关系，请注意隐私安全
+[2016-09-15 21:42:35] |PaperWeekly交流群| 桑磊 -> GROUP: PaperWeekly交流群 发送了一张图片: /cygdrive/f/git/WeixinBot-master/saved/msgimgsbydata/2016-09-15/img_8480003615485966235.jpg
+[2016-09-15 21:43:31] |PaperWeekly交流群| Danny -> GROUP: 机器真的能学习么
+[2016-09-15 21:44:11] |PaperWeekly交流群| 桑磊 -> GROUP: 你说呢[呲牙]
+[2016-09-15 21:44:47] |PaperWeekly交流群| Danny -> GROUP: 不会
+[2016-09-15 21:45:27] |PaperWeekly交流群| Danny -> GROUP: 我以前读书的时候，边玩手机边听课，结果考试时手机也不会啊[尴尬]
+[2016-09-15 21:49:57] |PaperWeekly交流群| 赵天雨 京都大学 -> GROUP: 时代在进步
+[2016-09-15 21:58:56] |PaperWeekly交流群| BuGoNee -> GROUP: 看来猎头还是要多学习啊
+[2016-09-16 11:43:21] |PaperWeekly交流群| SYSTEM -> 碱馒头: 吴学阳邀请Kai Yu加入了群聊
+[2016-09-16 11:49:25] |PaperWeekly交流群| clone -> GROUP: 于凯老师？
+[2016-09-16 11:50:57] |PaperWeekly交流群| beyond_boy -> GROUP: 地平线和思必驰都有yukai
+[2016-09-16 11:51:18] |PaperWeekly交流群| beyond_boy -> GROUP: 都是大神级
+[2016-09-16 11:52:29] |PaperWeekly交流群| 陌生人 -> GROUP: 我是思必驰和上海交大的搞人机交互的俞凯，[微笑]
+[2016-09-16 11:53:10] |PaperWeekly交流群| 北斗星 -> GROUP: 深度研究院的余凯老师
+[2016-09-16 11:53:22] |PaperWeekly交流群| Danny -> GROUP: 俞博士好[微笑]
+[2016-09-16 11:53:24] |PaperWeekly交流群| beyond_boy -> GROUP: 俞老师好[呲牙]
+[2016-09-16 11:53:46] |PaperWeekly交流群| 余雷 -> GROUP: 俞老师好！
+[2016-09-16 11:54:01] |PaperWeekly交流群| doing -> GROUP: 俞老师好
+[2016-09-16 11:56:10] |PaperWeekly交流群| ~~~~~ -> GROUP: 俞老师好
+[2016-09-16 11:56:24] |PaperWeekly交流群| Iris -> GROUP: 俞老师好
+[2016-09-16 11:57:14] |PaperWeekly交流群| 陌生人 -> GROUP: 余老师好
+[2016-09-16 11:58:04] |PaperWeekly交流群| 碱馒头 -> GROUP: 俞老师好
+[2016-09-16 12:00:12] |PaperWeekly交流群| daiwk -> GROUP: 俞老师好
+[2016-09-16 12:01:20] |PaperWeekly交流群| 王昊奋-知识图谱-Gowild -> GROUP: 俞老师号
+[2016-09-16 12:01:21] |PaperWeekly交流群| 王昊奋-知识图谱-Gowild -> GROUP: 好
+[2016-09-16 12:07:16] |PaperWeekly交流群| sai -> GROUP: 俞老师好
+[2016-09-16 12:15:36] |PaperWeekly交流群| 公子天 -> GROUP: 俞老师好
+[2016-09-16 12:17:13] |PaperWeekly交流群| Ada -> GROUP: 俞老师好
+[2016-09-16 12:17:43] |PaperWeekly交流群| 赵云峰 机器之心<span class="emoji emoji2122"></span> -> GROUP: 俞老师好
+[2016-09-16 12:18:34] |PaperWeekly交流群| 余露-NLP -> GROUP: 俞老师好<span class="emoji emoji1f60a"></span> 
+[2016-09-16 12:19:16] |PaperWeekly交流群| 赵云峰 机器之心<span class="emoji emoji2122"></span> -> GROUP: @Kai Yu 俞老师 我们可以平身了吧[坏笑][坏笑]
+[2016-09-16 12:21:34] |PaperWeekly交流群| 余露-NLP -> GROUP: 哈哈<span class="emoji emoji1f604"></span> 
+[2016-09-16 12:22:27] |PaperWeekly交流群| Danny -> GROUP: PaperWeekly交流群 发了一个动画表情，点击下面链接查看: 未知
+[2016-09-16 12:22:58] |PaperWeekly交流群| 陌生人 -> GROUP: 不好意思，刚才吃饭出去了。我和原来百度深度研究院的余凯经常被搞混，尤其在国外的时候，名字更区分不了，连审稿都有交叉，呵呵[调皮] 
+[2016-09-16 12:24:26] |PaperWeekly交流群| SYSTEM -> 碱馒头: 收到红包，请在手机上查看
+[2016-09-16 12:24:56] |PaperWeekly交流群| 机器不学习IMUCS -> GROUP: PaperWeekly交流群 发了一个动画表情，点击下面链接查看: 未知
+[2016-09-16 12:25:13] |PaperWeekly交流群| 凤凰院别针 -> GROUP: PaperWeekly交流群 发了一个动画表情，点击下面链接查看: 未知
+[2016-09-16 12:25:13] |PaperWeekly交流群| 哈siqi -> GROUP: PaperWeekly交流群 发了一个动画表情，点击下面链接查看: 未知
+[2016-09-16 12:25:13] |PaperWeekly交流群| 咖！ -> GROUP: 刚打开微信就抢了一个红包…谢谢老板
+[2016-09-16 12:25:21] |PaperWeekly交流群| ji.feng -> GROUP: 谢谢大牛 余凯老师
+[2016-09-16 12:26:14] |PaperWeekly交流群| Iris -> GROUP: 谢谢俞老师
+[2016-09-16 12:26:33] |PaperWeekly交流群| 机器不学习IMUCS -> GROUP: PaperWeekly交流群 发了一个动画表情，点击下面链接查看: 未知
+[2016-09-16 12:27:13] |PaperWeekly交流群| 陌生人 -> GROUP: 哦，看到前面姓氏有搞错的，稍微纠正一下哈。两位yu老师，上海交大和思必驰的是俞，前百度idl和地平线的是余，没有于老师哦
+[2016-09-16 12:27:41] |PaperWeekly交流群| zscs -> GROUP: 手慢了
+[2016-09-16 12:28:22] |PaperWeekly交流群| ji.feng -> GROUP: 谢谢俞老师[呲牙] 两位yu都是大牛
+[2016-09-16 12:29:38] |PaperWeekly交流群| 咖！ -> GROUP: 所以用Yu也有这好处 总不会错
+[2016-09-16 12:50:58] |PaperWeekly交流群| 张俊 -> GROUP: PaperWeekly交流群 分享了一个链接: {"url": "http://mp.weixin.qq.com/s?__biz=MzIwMTc4ODE0Mw==&amp;mid=2247483910&amp;idx=1&amp;sn=d25c6c73171eee753e731f875d93537c&amp;scene=1&amp;srcid=0916cUQ5YYuNpEYvarGBbFaa#rd", "appname": "\u672a\u77e5", "description": "\u4eceWord2Vec\u5230FastText\uff0cTomas Mikolov\u603b\u662f\u4f1a\u5e26\u7ed9\u5927\u5bb6\u5f71\u54cd\u529b\u5de8\u5927\u7684paper\u548c\u6210\u679c\uff0c\u672c\u671fPaperWeekly\u5206\u4eab\u4e86\u4ed6\u7684\u51e0\u7bc7\u4ee3\u8868\u4f5c\uff0c\u656c\u8bf7\u67e5\u770b\u3002", "title": "PaperWeekly \u7b2c\u4e94\u671f"}
+[2016-09-16 12:52:54] |PaperWeekly交流群| SYSTEM -> 碱馒头: 王义中邀请Scott加入了群聊
+[2016-09-16 12:53:45] |PaperWeekly交流群| 张俊 -> GROUP: 感谢@孟睿 @张琨 @Jell @积翠如云  几位童鞋的辛勤付出
+[2016-09-16 12:54:06] |PaperWeekly交流群| 张俊 -> GROUP: 这一期paperweekly 的topic是tomas mikolov
+[2016-09-16 12:55:11] |PaperWeekly交流群| SYSTEM -> 碱馒头: 张俊邀请猫爷加入了群聊
+[2016-09-16 12:57:10] |PaperWeekly交流群| 李国华-AI创业 -> GROUP: @Kai Yu 欢迎俞老师
+[2016-09-16 13:07:44] |PaperWeekly交流群| SYSTEM -> 碱馒头: Kai Yu邀请Nash加入了群聊
+[2016-09-16 13:08:20] |PaperWeekly交流群| ~~~~~ -> GROUP: 感觉行业精英都进来了[鼓掌]
+[2016-09-16 13:09:18] |PaperWeekly交流群| SYSTEM -> 碱馒头: Kai Yu邀请黄老鱼加入了群聊
+[2016-09-16 13:10:35] |PaperWeekly交流群| SYSTEM -> 碱馒头: Kai Yu邀请paul加入了群聊
+[2016-09-16 13:12:35] |PaperWeekly交流群| SYSTEM -> 碱馒头: Lai Kunfeng邀请丁丁加入了群聊
+[2016-09-16 13:13:49] |PaperWeekly交流群| 余人化石 -> GROUP: @Kai Yu 被我发现了，居然在这发红包
+[2016-09-16 13:19:59] |PaperWeekly交流群| SYSTEM -> 碱馒头: 张俊邀请rume加入了群聊
+[2016-09-16 13:28:29] |PaperWeekly交流群| SYSTEM -> 碱馒头: 张俊邀请mathsfan加入了群聊
+[2016-09-16 13:55:21] |PaperWeekly交流群| 机器不学习IMUCS -> GROUP: 这一期的论文很适合黏着语
+[2016-09-16 13:59:45] |PaperWeekly交流群| SYSTEM -> 碱馒头: 张俊邀请青原行思加入了群聊
+[2016-09-16 14:04:53] |PaperWeekly交流群| SYSTEM -> 碱馒头: 张俊邀请胡宁杭加入了群聊
+[2016-09-16 14:04:53] |PaperWeekly交流群| SYSTEM -> 碱馒头: 胡宁杭与群里其他人都不是微信朋友关系，请注意隐私安全
+[2016-09-16 14:06:59] |PaperWeekly交流群| SYSTEM -> 碱馒头: 张俊邀请量子加入了群聊
+[2016-09-16 14:08:40] |PaperWeekly交流群| 赵巍 -> GROUP: 俞老师好<span class="emoji emoji1f64f"></span>
+[2016-09-16 14:14:52] |PaperWeekly交流群| 张俊 -> GROUP: PaperWeekly交流群 发送了一张图片: /cygdrive/f/git/WeixinBot-master/saved/msgimgsbydata/2016-09-16/img_417179106267314056.jpg
+[2016-09-16 14:15:43] |PaperWeekly交流群| 张俊 -> GROUP: 我简单标注了下 群里的对话数据，Qi表示第i个question，Ai表示与第i个question相关联的answer或者Conversation
+[2016-09-16 14:16:22] |PaperWeekly交流群| 张俊 -> GROUP: 群里消息摘要的第一步应该是抽取出Q和关联的A
+[2016-09-16 14:16:31] |PaperWeekly交流群| Neo -> GROUP: <span class="emoji emoji1f44d"></span>
+[2016-09-16 14:16:39] |PaperWeekly交流群| 张俊 -> GROUP: 然后再选出质量好的Qa作为digest
+[2016-09-16 14:17:00] |PaperWeekly交流群| SYSTEM -> 碱馒头: 龚禹邀请Hea加入了群聊
+[2016-09-16 14:17:00] |PaperWeekly交流群| SYSTEM -> 碱馒头: Hea与群里其他人都不是微信朋友关系，请注意隐私安全
+[2016-09-16 14:17:12] |PaperWeekly交流群| 陌生人 -> GROUP: [强][强]
+[2016-09-16 14:17:20] |PaperWeekly交流群| 张俊 -> GROUP: 感觉有这么几个步骤，1、识别出Q   2、找出与该Q对应的A
+[2016-09-16 14:17:30] |PaperWeekly交流群| 王昊奋-知识图谱-Gowild -> GROUP: 有意思的尝试，不妨可以对一些问题比对一下和Quora或者知乎上的关联，:)
+[2016-09-16 14:17:37] |PaperWeekly交流群| 张俊 -> GROUP: 3、QA pair的ranking
+[2016-09-16 14:17:37] |PaperWeekly交流群| 张俊 -> GROUP: 作为摘要
+[2016-09-16 14:18:05] |PaperWeekly交流群| 张俊 -> GROUP: 嗯嗯
+[2016-09-16 14:18:43] |PaperWeekly交流群| 张俊 -> GROUP: 王老师指的关联具体作用是？
+[2016-09-16 14:18:58] |PaperWeekly交流群| 张俊 -> GROUP: @王昊奋-知识图谱-Gowild
+[2016-09-16 14:19:07] |PaperWeekly交流群| 王昊奋-知识图谱-Gowild -> GROUP: 当然如果有引导的topic的讨论，QA对特别是多轮对话比较容易收集，现在这种可能对标注的代价比较高吧
+[2016-09-16 14:19:55] |PaperWeekly交流群| 张俊 -> GROUP: 标了300多句，感觉大家聊天的时候经常围绕着好几个问题同时展开
+[2016-09-16 14:20:01] |PaperWeekly交流群| 王昊奋-知识图谱-Gowild -> GROUP: 就是因为在这里讨论可能会提到一些话题，我觉得这个summary之后可以对一些keywords或topical phrases进行linking对应到quora或知乎上的特定话题作为扩展阅读
+[2016-09-16 14:20:18] |PaperWeekly交流群| 张俊 -> GROUP: 一方面在一定的时间内有多个问题被提出 另一方面一个人同时会回答多个问题
+[2016-09-16 14:20:39] |PaperWeekly交流群| 王昊奋-知识图谱-Gowild -> GROUP: 另外，如果是围绕某个paper的话，那么也可以作为paper后notes或discussion的一个很好的材料
+[2016-09-16 14:20:59] |PaperWeekly交流群| 张俊 -> GROUP: 嗯嗯 是个非常好的建议
+[2016-09-16 14:20:59] |PaperWeekly交流群| 张俊 -> GROUP: <span class="emoji emoji1f44d"></span>
+[2016-09-16 14:20:59] |PaperWeekly交流群| 张俊 -> GROUP: 嗯嗯
+[2016-09-16 14:21:07] |PaperWeekly交流群| 王昊奋-知识图谱-Gowild -> GROUP: 一定时间内的收集其实可以后面用timeline展开
+[2016-09-16 14:21:14] |PaperWeekly交流群| 张俊 -> GROUP: 我还有个不知道靠谱不靠谱的想法
+[2016-09-16 14:22:00] |PaperWeekly交流群| 王昊奋-知识图谱-Gowild -> GROUP: 对比当前可能投融资或业界的热点，也可以对比学术界各大会议特别是arxiv上的比较好的paper中的主题，特别是现在做了daily和weekly, :)
+[2016-09-16 14:22:12] |PaperWeekly交流群| 王昊奋-知识图谱-Gowild -> GROUP: 比较粗的建议，仅供参考，:)
+[2016-09-16 14:22:30] |PaperWeekly交流群| 张俊 -> GROUP: 就是，在群里引入bot，在群外建一个bbs之类的东西，通过bot将微信群的内容和bbs的内容互通 ，
+[2016-09-16 14:22:48] |PaperWeekly交流群| 王昊奋-知识图谱-Gowild -> GROUP: 恩，这个想法就更好了
+[2016-09-16 14:22:54] |PaperWeekly交流群| 王昊奋-知识图谱-Gowild -> GROUP: 自己回复
+[2016-09-16 14:22:57] |PaperWeekly交流群| 王昊奋-知识图谱-Gowild -> GROUP: 不行转人工，:)
+[2016-09-16 14:23:09] |PaperWeekly交流群| 张俊 -> GROUP: bbs UI更加清晰一点
+[2016-09-16 14:23:18] |PaperWeekly交流群| 张俊 -> GROUP: 群里的数据，通过一定的格式，转给bot
+[2016-09-16 14:23:24] |PaperWeekly交流群| 王昊奋-知识图谱-Gowild -> GROUP: 恩
+[2016-09-16 14:23:30] |PaperWeekly交流群| 张俊 -> GROUP: bot把内容发在bbs上
+[2016-09-16 14:24:04] |PaperWeekly交流群| 张俊 -> GROUP: 避免了数据标注或者用算法来抽qa对这个麻烦
+[2016-09-16 14:24:24] |PaperWeekly交流群| 王昊奋-知识图谱-Gowild -> GROUP: good idea
+[2016-09-16 14:24:36] |PaperWeekly交流群| 张俊 -> GROUP: digest 包括您说的扩展做起来都方便很多了
+[2016-09-16 14:24:49] |PaperWeekly交流群| 王昊奋-知识图谱-Gowild -> GROUP: 可以尝试尝试，:)
+[2016-09-16 14:24:55] |PaperWeekly交流群| 张俊 -> GROUP: 这需要规范一下群里的聊天格式 尤其是QA
+[2016-09-16 14:25:14] |PaperWeekly交流群| 张俊 -> GROUP: 不知道 有没有大牛有更多的想法 或者在实现上有没有好的想法呢？
+[2016-09-16 14:25:33] |PaperWeekly交流群| 张俊 -> GROUP: 王老师的建议和idea都非常<span class="emoji emoji1f44d"></span>
+[2016-09-16 14:25:42] |PaperWeekly交流群| 王昊奋-知识图谱-Gowild -> GROUP: 你可以给出一些投票选项，来收集大家的意见
+[2016-09-16 14:26:15] |PaperWeekly交流群| 张俊 -> GROUP: <span class="emoji emoji1f44c"></span>
+[2016-09-16 14:26:38] |PaperWeekly交流群| 王昊奋-知识图谱-Gowild -> GROUP: 这样brain storming之后，我觉得reshape出的成果应该更加朝产品（至少落地大家愿意去用）迈了一步
+[2016-09-16 14:27:20] |PaperWeekly交流群| 张俊 -> GROUP: 嗯嗯 好主意
+[2016-09-16 14:27:59] |PaperWeekly交流群| 王昊奋-知识图谱-Gowild -> GROUP: 针对这些更加明确的需求，对应的技术方案也会更有针对性
+[2016-09-16 14:32:47] |PaperWeekly交流群| 张俊 -> GROUP: <span class="emoji emoji1f44c"></span> 谢谢王老师
+[2016-09-16 14:38:05] |PaperWeekly交流群| 王昊奋-知识图谱-Gowild -> GROUP: [握手]
+[2016-09-16 14:46:19] |PaperWeekly交流群| SYSTEM -> 碱馒头: 机器不学习IMUCS邀请少加入了群聊
+[2016-09-16 14:46:19] |PaperWeekly交流群| SYSTEM -> 碱馒头: 少与群里其他人都不是微信朋友关系，请注意隐私安全
+[2016-09-16 15:22:33] |PaperWeekly交流群| SYSTEM -> 碱馒头: 张俊邀请Befeng加入了群聊
+[2016-09-16 17:30:31] |PaperWeekly交流群| 洪谦 -> GROUP: 我偏题一下，我觉得投票可能不会得出好的决策，理由参考上面文章中张维迎的观点。我小题大做了，大家当我闲扯就好哈
+[2016-09-16 17:30:31] |PaperWeekly交流群| 洪谦 -> GROUP: PaperWeekly交流群 分享了一个链接: {"url": "http://mp.weixin.qq.com/s?__biz=MzA5OTA4NjUxNg==&amp;mid=2650764337&amp;idx=1&amp;sn=9953217dd552736b8ef022f12967479e&amp;chksm=888c6deabffbe4fc3121d0569f273815fb501957f768d3c7360bbd7c8ce019dcda21bc41ef88&amp;scene=1&amp;srcid=0915LBTSccfaQuN1itDLfYum#rd", "appname": "\u672a\u77e5", "description": "\u4f46\u613f\u4eba\u957f\u4e45 \uff0c\u5343\u91cc\u5171\u5a75\u5a1f\uff0c\u53c8\u662f\u4e00\u5e74\u4e2d\u79cb\u8282\uff01\uff01\uff01i\u6295\u8d44\u5168\u4f53\u4eba\u5458\u5728\u6b64\u795d\u60a8\u548c\u5bb6\u4eba\uff1a\u9616\u5bb6\u56e2\u5706\uff01\u5e78\u798f\u5b89\u5eb7\uff01\u4e07\u4e8b\u5982\u610f\uff01\u4e2d\u79cb\u8282\u5feb\u4e50\uff01\uff01", "title": "\u5f20\u7ef4\u8fce\u4e0e\u6797\u6bc5\u592b\u5f53\u4e0b\u7ecf\u6d4e\u5b66\u754c\u6700\u6fc0\u70c8\u4e89\u8bba \u5173\u4e4e\u6211\u4eec\u672a\u6765\u547d\u8fd0\uff01"}
+[2016-09-16 19:23:05] |PaperWeekly交流群| ToT -> GROUP: 张维迎没看过第三次浪潮吧
+[2016-09-16 19:26:19] |PaperWeekly交流群| ToT -> GROUP: 这次机器学习跟以前不一样。具有互联网的特征，平台加应用
+[2016-09-16 19:29:13] |PaperWeekly交流群| ToT -> GROUP: 应用创新推动技术创新。网格和物联网、ATM相反。
+[2016-09-16 20:23:18] |PaperWeekly交流群| 落花流水 -> GROUP: 张先生现在基本边缘化了，挺可怜的
+[2016-09-16 20:30:52] |PaperWeekly交流群| Danny -> GROUP: 难道说了一些实话？
+[2016-09-16 20:31:04] |PaperWeekly交流群| Danny -> GROUP: 某党不开心？
+[2016-09-16 20:45:30] |PaperWeekly交流群| 人生经验 -> GROUP: 没有吧
+[2016-09-16 20:46:03] |PaperWeekly交流群| 人生经验 -> GROUP: 张一直再给某某唱赞歌啊
+[2016-09-16 20:46:35] |PaperWeekly交流群| 人生经验 -> GROUP: 我还看过他演讲，叫什么我忘了，基本就是唱赞歌
+[2016-09-16 20:47:28] |PaperWeekly交流群| 张俊 -> GROUP: 本群只讨论学术相关 大家周知
+[2016-09-16 20:48:07] |PaperWeekly交流群| 人生经验 -> GROUP: [OK]sorry
+[2016-09-16 22:05:26] |PaperWeekly交流群| SYSTEM -> 碱馒头: 张俊邀请chunqi加入了群聊
+[2016-09-17 08:28:49] |PaperWeekly交流群| 张俊 -> GROUP: PaperWeekly交流群 分享了一个链接: {"url": "http://mp.weixin.qq.com/s?__biz=MzIwMTc4ODE0Mw==&amp;mid=2247483912&amp;idx=1&amp;sn=560beed7bae16a9a158b4da96f29dabb&amp;scene=1&amp;srcid=0917LGPXgT4jIpyDRnQ5IZ43#rd", "appname": "\u672a\u77e5", "description": "\u672c\u5468\uff082016.09.12-2016.09.16\uff09\u8d28\u91cf\u8f83\u9ad8\u7684arXiv cs.CL\u7684paper\u63a8\u8350\u4ee5\u53caarXiv\u5916\u9ad8\u8d28\u91cf\u7684\u5185\u5bb9\u548c\u8d44\u6e90\uff0c\u4e0b\u8f7d\u6587\u7ae0\u8bf7\u70b9\u9605\u8bfb\u539f\u6587", "title": "cs.CL weekly 2016.09.12-2016.09.16"}
+[2016-09-17 08:29:08] |PaperWeekly交流群| 张俊 -> GROUP: 本周arxiv cs.cl上值得读的paper
+[2016-09-17 08:29:25] |PaperWeekly交流群| 张俊 -> GROUP: PaperWeekly交流群 分享了一个链接: {"url": "http://mp.weixin.qq.com/s?__biz=MzIwMTc4ODE0Mw==&amp;mid=2247483912&amp;idx=2&amp;sn=2b0b17fb7c6dc73871edc7ef17835889&amp;scene=1&amp;srcid=0917tWhbwXVL9pTRYbqDIBo2#rd", "appname": "\u672a\u77e5", "description": "\u5173\u4e8e\u5982\u4f55\u9ad8\u6548\u5730\u8ba8\u8bbapaper\uff0c\u542c\u542c\u5927\u5bb6\u7684\u610f\u89c1\u3002\u5982\u679c\u9009\u9879\u4e2d\u6ca1\u6709\u60a8\u6ee1\u610f\u7684\u7b54\u6848\uff0c\u8bf7\u7559\u8a00\u3002", "title": "\u5173\u4e8epaperweekly\u7684\u51e0\u4e2a\u6295\u7968"}
+[2016-09-17 08:30:05] |PaperWeekly交流群| 张俊 -> GROUP: 这里有几个投票 麻烦各位有空填一下 方便paperweekly改善自己 谢谢大家
+[2016-09-17 08:31:19] |PaperWeekly交流群| SYSTEM -> 碱馒头: 收到红包，请在手机上查看
+[2016-09-17 08:33:31] |PaperWeekly交流群| guangbao -> GROUP: 已投票[呲牙]
+[2016-09-17 08:38:52] |PaperWeekly交流群| .十点十分 -> GROUP: 非常及时，已投票，
+[2016-09-17 08:38:54] |PaperWeekly交流群| beyond_boy -> GROUP: 已填
+[2016-09-17 08:39:37] |PaperWeekly交流群| IronSky -> GROUP: 已填
+[2016-09-17 08:40:53] |PaperWeekly交流群| 人生经验 -> GROUP: 已填
+[2016-09-17 08:45:21] |PaperWeekly交流群| 子楠 -> GROUP: 已填
+[2016-09-17 08:45:37] |PaperWeekly交流群| 文 -> GROUP: PaperWeekly交流群 分享了一个链接: {"url": "http://mp.weixin.qq.com/s?__biz=MzIwMTc4ODE0Mw==&amp;mid=2247483912&amp;idx=1&amp;sn=560beed7bae16a9a158b4da96f29dabb&amp;scene=1&amp;srcid=0917LGPXgT4jIpyDRnQ5IZ43#rd", "appname": "\u672a\u77e5", "description": "\u672c\u5468\uff082016.09.12-2016.09.16\uff09\u8d28\u91cf\u8f83\u9ad8\u7684arXiv cs.CL\u7684paper\u63a8\u8350\u4ee5\u53caarXiv\u5916\u9ad8\u8d28\u91cf\u7684\u5185\u5bb9\u548c\u8d44\u6e90\uff0c\u4e0b\u8f7d\u6587\u7ae0\u8bf7\u70b9\u9605\u8bfb\u539f\u6587", "title": "cs.CL weekly 2016.09.12-2016.09.16"}
+[2016-09-17 08:45:54] |PaperWeekly交流群| 文 -> GROUP: 这个打不开了
+[2016-09-17 08:47:06] |PaperWeekly交流群| Neo -> GROUP: 已投票
+[2016-09-17 08:48:34] |PaperWeekly交流群| 文 -> GROUP: 谢谢分享
+[2016-09-17 08:49:01] |PaperWeekly交流群| SYSTEM -> 碱馒头: 张俊邀请陈john加入了群聊
+[2016-09-17 08:49:01] |PaperWeekly交流群| SYSTEM -> 碱馒头: 陈john与群里其他人都不是微信朋友关系，请注意隐私安全
+[2016-09-17 08:49:25] |PaperWeekly交流群| SYSTEM -> 碱馒头: 张俊邀请AC加入了群聊
+[2016-09-17 08:49:25] |PaperWeekly交流群| SYSTEM -> 碱馒头: AC与群里其他人都不是微信朋友关系，请注意隐私安全
+[2016-09-17 08:50:42] |PaperWeekly交流群| 文 -> GROUP: 投了
+[2016-09-17 08:50:46] |PaperWeekly交流群| 胡宁杭 -> GROUP: 已投
+[2016-09-17 08:53:52] |PaperWeekly交流群| 三岁小孩 -> GROUP: 已投
+[2016-09-17 08:55:35] |PaperWeekly交流群| 刘升平@云知声 -> GROUP: 已投，谢谢群主用心
+[2016-09-17 08:57:13] |PaperWeekly交流群| 陌生人 -> GROUP: 已投
+[2016-09-17 09:01:08] |PaperWeekly交流群| 脑洞菌 -> GROUP: 已投，感恩群主
+[2016-09-17 09:01:27] |PaperWeekly交流群| 李加 -> GROUP: 已投
+[2016-09-17 09:03:22] |PaperWeekly交流群| 量子 -> GROUP: 群主棒棒哒
+[2016-09-17 09:05:37] |PaperWeekly交流群| yucoian -> GROUP: 已投，群主真用心[抱拳][抱拳]
+[2016-09-17 09:07:46] |PaperWeekly交流群| ljg -> GROUP: 已投
+[2016-09-17 09:08:02] |PaperWeekly交流群| 郭少卿 -> GROUP: 群主，请问是不是有一个对应公众号？能否发一下名片，谢谢
+[2016-09-17 09:08:08] |PaperWeekly交流群| 郭少卿 -> GROUP: @张俊 
+[2016-09-17 09:08:14] |PaperWeekly交流群| doing -> GROUP: 已投+1
+[2016-09-17 09:09:17] |PaperWeekly交流群| 张俊 -> GROUP: PaperWeekly交流群 发送了一张名片: {"UserName": "@8408d8c5b164023cc258dc5fc9537566", "Province": "\u6e56\u5357", "City": "\u4e2d\u56fd", "Scene": 17, "QQNum": 0, "Content": "", "Alias": "paperweekly", "OpCode": 0, "Signature": "", "Ticket": "", "Sex": 0, "NickName": "PaperWeekly", "AttrStatus": 0, "VerifyFlag": 8}
+[2016-09-17 09:09:33] |PaperWeekly交流群| 张俊 -> GROUP: @郭少卿 
+[2016-09-17 09:09:58] |PaperWeekly交流群| 郭少卿 -> GROUP: 谢谢啦
+[2016-09-17 09:12:48] |PaperWeekly交流群| 盖子 -> GROUP: 投了
+[2016-09-17 09:13:00] |PaperWeekly交流群| Chen -> GROUP: 已投
+[2016-09-17 09:19:02] |PaperWeekly交流群| Iris -> GROUP: 投啦
+[2016-09-17 09:19:29] |PaperWeekly交流群| 桑磊 -> GROUP: 群主用心啦
+[2016-09-17 09:21:18] |PaperWeekly交流群| 公子天 -> GROUP: 已投
+[2016-09-17 09:21:32] |PaperWeekly交流群| 飞鱼 -> GROUP: 投了
+[2016-09-17 09:27:54] |PaperWeekly交流群| 碱馒头 -> GROUP: 已投
+[2016-09-17 09:30:44] |PaperWeekly交流群| ** -> GROUP: 已投
+[2016-09-17 09:35:37] |PaperWeekly交流群| SYSTEM -> 碱馒头: 张俊邀请LLC加入了群聊
+[2016-09-17 09:46:53] |PaperWeekly交流群| SYSTEM -> 碱馒头: 张俊邀请prompt加入了群聊
+[2016-09-17 09:46:53] |PaperWeekly交流群| SYSTEM -> 碱馒头: prompt与群里其他人都不是微信朋友关系，请注意隐私安全
+[2016-09-17 10:10:13] |PaperWeekly交流群| SYSTEM -> 碱馒头: 张俊邀请李勇加入了群聊
+[2016-09-17 10:39:23] |PaperWeekly交流群| 张俊 -> GROUP: 微信群如何突破500人？现在满500了 新童鞋进不来了
+[2016-09-17 10:42:12] |PaperWeekly交流群| ** -> GROUP: 好像是群主可以括
+[2016-09-17 10:42:25] |PaperWeekly交流群| Chen -> GROUP: 应该可以升级吧
+[2016-09-17 10:42:25] |PaperWeekly交流群| ** -> GROUP: 申请扩大
+[2016-09-17 10:44:15] |PaperWeekly交流群| ** -> GROUP: 好像500就最大了吧？
+[2016-09-17 10:44:38] |PaperWeekly交流群| 杨雪峰 -> GROUP: 貌似只能二群
+[2016-09-17 10:45:50] |PaperWeekly交流群| 张俊 -> GROUP: 如何升级呢
+[2016-09-17 10:46:10] |PaperWeekly交流群| 陌生人 -> GROUP: 应该是严格限制，暂时突破不了。
+[2016-09-17 10:46:52] |PaperWeekly交流群| ZZUNLP~M -> GROUP: PaperWeekly交流群 发送了一张图片: /cygdrive/f/git/WeixinBot-master/saved/msgimgsbydata/2016-09-17/img_867824935394803312.jpg
+[2016-09-17 10:47:29] |PaperWeekly交流群| 张俊 -> GROUP: 只能开二群了
+[2016-09-17 10:50:32] |PaperWeekly交流群| 杨雪峰 -> GROUP: 以后估计也可以微信会员了
+[2016-09-17 10:50:39] |PaperWeekly交流群| 杨雪峰 -> GROUP: 哈哈哈
+[2016-09-17 10:51:50] |PaperWeekly交流群| Chen -> GROUP: <span class="emoji emoji1f633"></span>连QQ会员都不是
+[2016-09-17 10:51:59] |PaperWeekly交流群| Wilson -> GROUP: 或者弄淘汰制...定期清理群员...
+[2016-09-17 10:53:45] |PaperWeekly交流群| kobeshow_金龙 -> GROUP: 微信群貌似不能扩容
+[2016-09-17 10:54:17] |PaperWeekly交流群| 十亿少女的梦 -> GROUP: 搞个聊天机器人，微信群聊天记录同步各个群
+[2016-09-17 10:56:40] |PaperWeekly交流群| 张景远 -> GROUP: @十亿少女的梦 这个可以有
+[2016-09-17 10:57:00] |PaperWeekly交流群| 十亿少女的梦 -> GROUP: [呲牙][呲牙]
+[2016-09-17 10:57:09] |PaperWeekly交流群| 十亿少女的梦 -> GROUP: 前景也不错~~
+[2016-09-17 10:58:14] |PaperWeekly交流群| 张俊 -> GROUP: 嗯嗯
+[2016-09-17 10:58:14] |PaperWeekly交流群| 张俊 -> GROUP: 好主意
+[2016-09-17 10:58:14] |PaperWeekly交流群| 张俊 -> GROUP: bot同步消息
+[2016-09-17 10:58:25] |PaperWeekly交流群| Neo -> GROUP: QQ群可以
+[2016-09-17 11:08:09] |PaperWeekly交流群| 张俊 -> GROUP: 建了个二群 
+[2016-09-17 11:08:29] |PaperWeekly交流群| 张俊 -> GROUP: @碱馒头 童鞋会给建个同步消息的bot 放在两个群里
+[2016-09-17 11:08:30] |PaperWeekly交流群| 张俊 -> GROUP: <span class="emoji emoji1f44d"></span>
+[2016-09-17 11:08:33] |PaperWeekly交流群| ** -> GROUP: [强][强]
+[2016-09-17 11:08:49] |PaperWeekly交流群| 郑耀宏 -> GROUP: hollyhigh 
+[2016-09-17 11:09:03] |PaperWeekly交流群| ** -> GROUP: 想知道如何拿到微信消息
+[2016-09-17 11:09:45] |PaperWeekly交流群| ** -> GROUP: 大神们可以指点一下么？
+[2016-09-17 11:10:26] |PaperWeekly交流群| Jeremy -> GROUP: 已经有了…
+[2016-09-17 11:10:54] |PaperWeekly交流群| Jeremy -> GROUP: @张俊 我发给你…把这个bot run 上就可以同步消息了
+[2016-09-17 11:11:53] |PaperWeekly交流群| Jeremy -> GROUP: https://github.com/buaagg/WeixinBot
+[2016-09-17 11:12:14] |PaperWeekly交流群| 张俊 -> GROUP: 哦？
+[2016-09-17 11:12:15] |PaperWeekly交流群| 张俊 -> GROUP: <span class="emoji emoji1f44d"></span>
+[2016-09-17 11:12:40] |PaperWeekly交流群| ** -> GROUP: [强][强]
+[2016-09-17 11:13:24] |PaperWeekly交流群| Jeremy -> GROUP: 当然红包不能同步
+[2016-09-17 11:13:46] |PaperWeekly交流群| Jeremy -> GROUP: 希望猎头发红包的时候俩群都要发[Grin]
+[2016-09-17 11:13:46] |PaperWeekly交流群| ** -> GROUP: 可以同步公众号信息不？
+[2016-09-17 11:14:18] |PaperWeekly交流群| 张俊 -> GROUP: [呲牙][呲牙][呲牙]
+[2016-09-17 11:25:29] |PaperWeekly交流群| Danny -> GROUP: 那我两个群都要进，不然发红包发不了[呲牙]
+[2016-09-17 11:25:56] |PaperWeekly交流群| .十点十分 -> GROUP: [强]
+[2016-09-17 11:26:55] |PaperWeekly交流群| 槟糖 -> GROUP: 猎头不容易啊
+[2016-09-17 11:28:29] |PaperWeekly交流群| SYSTEM -> 碱馒头: 收到红包，请在手机上查看
+[2016-09-17 11:30:34] |PaperWeekly交流群| Danny -> GROUP: 好的我回头罩着你，我上面有人，别告诉别人[得意]
+[2016-09-17 11:30:48] |PaperWeekly交流群| brucejin  -> GROUP: #提议群主# 猎头只允许进一个群 除非每天红包
+[2016-09-17 11:30:55] |PaperWeekly交流群| ** -> GROUP: [调皮]谢谢
+[2016-09-17 11:32:02] |PaperWeekly交流群| Neo -> GROUP: 附议@brucejin  
+[2016-09-17 12:55:31] |PaperWeekly交流群| 张景远 -> GROUP: 图片可以么
+[2016-09-17 12:55:40] |PaperWeekly交流群| 碱馒头 -> GROUP: 哈哈 要加个聊天机器人么
+[2016-09-17 12:55:41] |PaperWeekly交流群| 张景远 -> GROUP: PaperWeekly交流群 发送了一张图片: /cygdrive/f/git/WeixinBot-master/saved/msgimgsbydata/2016-09-17/img_3801837449384622674.jpg
+[2016-09-17 12:56:24] |PaperWeekly交流群| 碱馒头 -> GROUP: 晚上加 现在暂时只能文本……
+[2016-09-17 12:56:38] |PaperWeekly交流群| 张俊 -> GROUP: 我和bot都在两个群里 看着消息好晕[偷笑]
+[2016-09-17 13:08:34] |PaperWeekly交流群| tankle -> GROUP: 赞一个
+[2016-09-17 13:11:19] |PaperWeekly交流群| guangbao -> GROUP: @bot  test
+[2016-09-17 13:15:09] |PaperWeekly交流群| 子楠 -> GROUP: 赞
+[2016-09-17 13:27:06] |PaperWeekly交流群| Matt-NLP -> GROUP: 棒！
+[2016-09-17 13:27:57] |PaperWeekly交流群| 猫猫猫曲项向天喵 -> GROUP: bot23333
+[2016-09-17 13:28:00] |PaperWeekly交流群| 猫猫猫曲项向天喵 -> GROUP: 萌cry！
+[2016-09-17 13:33:13] |PaperWeekly交流群| 安倚天 -> GROUP: @bot 你今天开心吗
+[2016-09-17 13:33:37] |PaperWeekly交流群| 安倚天 -> GROUP: @bot 加压
+[2016-09-17 13:33:47] |PaperWeekly交流群| 安倚天 -> GROUP: 加呀
+[2016-09-17 13:33:48] |PaperWeekly交流群| 量子 -> GROUP: 牛比，微信bot怎么接入的？
+[2016-09-17 13:34:48] |PaperWeekly交流群| 量子 -> GROUP: 知道了谢大神
+[2016-09-17 13:34:55] |PaperWeekly交流群| TM -> GROUP: 好想再加一个bot让他们共振！
+[2016-09-17 13:38:06] |PaperWeekly交流群| Jeremy -> GROUP: 让小冰和自己聊！
+[2016-09-17 13:38:25] |PaperWeekly交流群| Jeremy -> GROUP: 会不会最后就一直呵呵|哈哈
+[2016-09-17 13:42:02] |PaperWeekly交流群| L-Show-way -> GROUP: [强]
+[2016-09-17 13:43:09] |PaperWeekly交流群| 猫猫猫曲项向天喵 -> GROUP: 最后肯定就收敛了啊
+[2016-09-17 13:43:47] |PaperWeekly交流群| Jeremy -> GROUP: 然而小冰肯定写了rule
+[2016-09-17 13:44:02] |PaperWeekly交流群| Jeremy -> GROUP: 可能不会轻易收敛2333
+[2016-09-17 13:44:38] |PaperWeekly交流群| ucl weijie -> GROUP: 你说他是写了rule呢还是从算法层面就保证了不会出现这个问题？
+[2016-09-17 13:46:00] |PaperWeekly交流群| TM -> GROUP: 没区别吧
+[2016-09-17 13:47:22] |PaperWeekly交流群| 赵天雨 京都大学 -> GROUP: 为什么不是 rule based 的话容易收敛？
+[2016-09-17 13:47:40] |PaperWeekly交流群| 军临天下 -> GROUP: 高大上bot
+[2016-09-17 13:53:33] |PaperWeekly交流群| 军临天下 -> GROUP: 文件能同步吗？各位
+[2016-09-17 13:56:21] |PaperWeekly交流群| doing -> GROUP: 像这些消息是不是可以过滤掉？造成干扰
+[2016-09-17 13:56:22] |PaperWeekly交流群| doing -> GROUP: PaperWeekly交流群 发送了一张图片: /cygdrive/f/git/WeixinBot-master/saved/msgimgsbydata/2016-09-17/img_5329398386576656511.jpg
+[2016-09-17 13:58:07] |PaperWeekly交流群| TM -> GROUP: 最多一千条而已
+[2016-09-17 13:58:28] |PaperWeekly交流群| Jeremy -> GROUP: 哈哈
+[2016-09-17 13:59:20] |PaperWeekly交流群| ucl weijie -> GROUP: [偷笑]
+[2016-09-17 14:07:01] |PaperWeekly交流群| 呢喃 -> GROUP: 楼上是ucla的？
+[2016-09-17 14:07:31] |PaperWeekly交流群| 呢喃 -> GROUP: 哦看错了
+[2016-09-17 14:11:05] |PaperWeekly交流群| 余露-NLP -> GROUP: 哈哈，要爆炸了，扫描入群消息也可以被同步
+[2016-09-17 14:11:05] |PaperWeekly交流群| 碱馒头 -> GROUP: 可以的 就是刚走的急
+[2016-09-17 14:11:05] |PaperWeekly交流群| 碱馒头 -> GROUP: 没屏蔽……
+[2016-09-17 14:15:15] |PaperWeekly交流群| 余露-NLP -> GROUP: 这个bot是另外一个账号吗？
+[2016-09-17 14:15:34] |PaperWeekly交流群| 余露-NLP -> GROUP: 有点转发消息的感觉
+[2016-09-17 14:15:48] |PaperWeekly交流群| 碱馒头 -> GROUP: 可以看到
+[2016-09-17 14:16:30] |PaperWeekly交流群| ucl weijie -> GROUP: 我们这里说话 二群能看到吗
+[2016-09-17 14:17:10] |PaperWeekly交流群| ucl weijie -> GROUP: cool 200
+[2016-09-17 14:17:20] |PaperWeekly交流群| ucl weijie -> GROUP: [握手]
+[2016-09-17 14:30:10] |PaperWeekly交流群| fan -> GROUP: 有种平行宇宙的感觉噢
+[2016-09-17 14:34:51] |PaperWeekly交流群| daiwk -> GROUP: test 二群的朋友们 看得到我么
+[2016-09-17 14:35:31] |PaperWeekly交流群| doing -> GROUP: 可以用tcp三次握手试下
+[2016-09-17 14:35:45] |PaperWeekly交流群| 郭少卿 -> GROUP: 大家能分享个二群的名片么
+[2016-09-17 14:37:46] |PaperWeekly交流群| 王昊奋-知识图谱-Gowild -> GROUP: 好奇妙的感受
+[2016-09-17 15:12:40] |PaperWeekly交流群| brucejin  -> GROUP: 入群的屏蔽掉
+[2016-09-17 15:14:28] |PaperWeekly交流群| 胡宁杭 -> GROUP: @bot 你是用自己的号做bot啊
+[2016-09-17 15:14:39] |PaperWeekly交流群| 胡宁杭 -> GROUP: 谢谢牺牲
+[2016-09-17 15:20:34] |PaperWeekly交流群| dqq -> GROUP: <span class="emoji emoji1f639"></span>有点晕
+[2016-09-17 15:25:38] |PaperWeekly交流群| 碱馒头 -> GROUP: 等下我屏蔽一下系统消息
+[2016-09-17 15:57:10] |PaperWeekly交流群| 袁安迪 -> GROUP: PaperWeekly交流群 分享了一个链接: {"url": "http://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&amp;mid=2651987138&amp;idx=2&amp;sn=1f55f1e639721bdf810ea32c79b6376e&amp;chksm=f1216833c656e12564092cc7bc2125ccc016c256f8eec6655909611d9ec428c83581bc2c8aa0&amp;scene=1&amp;srcid=0917jVfovRLUwpUmzoSMqsF7#rd", "appname": "\u672a\u77e5", "description": "Twitter\u6b63\u5728\u628a\u589e\u5f3a\u5b66\u4e60\u5f53\u6210\u4e00\u79cd\u5b66\u4e60\u8303\u5f0f\u6765\u8fdb\u884c\u63a2\u7d22", "title": "Twitter \u5f00\u6e90\u589e\u5f3a\u5b66\u4e60\u6846\u67b6Torch-twrl \uff0c\u53ef\u4e0eOpenAI \u65e0\u7f1d\u5bf9\u63a5"}
+[2016-09-17 15:59:30] |PaperWeekly交流群| 张俊 -> GROUP: <span class="emoji emoji1f44d"></span>
+[2016-09-17 16:28:32] |PaperWeekly交流群| Chen -> GROUP: <span class="emoji emoji1f633"></span>有种莫名其妙的毕业
+[2016-09-17 16:28:40] |PaperWeekly交流群| Chen -> GROUP: PaperWeekly交流群 撤回了一条消息
+[2016-09-17 16:28:47] |PaperWeekly交流群| Chen -> GROUP: <span class="emoji emoji1f633"></span>有种莫名其妙的利害
+[2016-09-17 16:48:20] |PaperWeekly交流群| Chung Ho Lam -> GROUP: 分享一下下：以Attention Model替例谈谈两种研究创新模式（http://m.blog.csdn.net/article/details?id=50583474
+[2016-09-17 17:01:01] |PaperWeekly交流群| 余露-NLP -> GROUP: 何为研究创新模式
+[2016-09-17 17:27:47] |PaperWeekly交流群| 桑磊 -> GROUP: 友情提示:翻了下同学买的一本书<神经网络与深度学习> 内容非常水，全是从网络上扒下来的东西 没看过的千万别买啊[呲牙]
+[2016-09-17 17:28:05] |PaperWeekly交流群| 桑磊 -> GROUP: PaperWeekly交流群 发送了一张图片: /cygdrive/f/git/WeixinBot-master/saved/msgimgsbydata/2016-09-17/img_2683935175661072496.jpg
+[2016-09-17 17:28:30] |PaperWeekly交流群| burness@ucloud -> GROUP: 这本书好像被爆抄袭
+[2016-09-17 17:28:55] |PaperWeekly交流群| .十点十分 -> GROUP: 好像有一本大部头，也叫这个名字，
+[2016-09-17 17:30:10] |PaperWeekly交流群| BuGoNee -> GROUP: 看mlapp吧
+[2016-09-17 17:30:22] |PaperWeekly交流群| BuGoNee -> GROUP: 或者edx上面的learning from data要开了
+[2016-09-17 17:30:25] |PaperWeekly交流群| BuGoNee -> GROUP: 赶紧跟
+[2016-09-17 17:36:38] |PaperWeekly交流群| 碱馒头 -> GROUP: 碱馒头 发送了一张图片: /cygdrive/f/git/WeixinBot-master/saved/msgimgsbydata/2016-09-17/img_3348420156261621869.jpg
+[2016-09-17 17:39:24] |PaperWeekly交流群| 碱馒头 -> GROUP: 会
+[2016-09-17 17:39:42] |PaperWeekly交流群| BuGoNee -> GROUP: 图片也能同步，给力给力
+[2016-09-17 17:46:27] |PaperWeekly交流群| 北斗星 -> GROUP: @所有人 有在深圳做bot或nlp的吗？
+[2016-09-17 17:48:08] |PaperWeekly交流群| 北斗星 -> GROUP: 你在做？
+[2016-09-17 17:50:40] |PaperWeekly交流群| 叶正 -> GROUP: 现在这个聊天有点意思
+[2016-09-17 17:53:21] |PaperWeekly交流群| BuGoNee -> GROUP: 两个群都通了，很有趣，哈哈哈
+[2016-09-17 17:55:41] |PaperWeekly交流群| 笑威 -> GROUP: Bot把自己和机器人合并了。
+[2016-09-17 17:56:19] |PaperWeekly交流群| 碱馒头 -> GROUP: 本来想申请个小号的 然而这个群满了加不进来了……
+[2016-09-17 17:59:40] |PaperWeekly交流群| 碱馒头 -> GROUP: 碱馒头 发送了一张图片: /cygdrive/f/git/WeixinBot-master/saved/msgimgsbydata/2016-09-17/img_1550836544012294642.jpg
+[2016-09-17 18:26:53] |PaperWeekly交流群| clone -> GROUP: bot和人打通，应该就是把那个bot绑定在自己的微信id上，这样就可以了吧
+[2016-09-17 18:27:59] |PaperWeekly交流群| burness@ucloud -> GROUP: 通过web weixin的api，登录自己的微信，然后指定接受某个群的信息然后转发到另一个群
+[2016-09-17 18:30:34] |PaperWeekly交流群| brucejin  -> GROUP: 新智元 的有人在这个群里面吗
+[2016-09-17 18:36:02] |PaperWeekly交流群| clone -> GROUP: 这个是他们api支持的吗
+[2016-09-17 18:36:03] |PaperWeekly交流群| clone -> GROUP: PaperWeekly交流群 发送了一张图片: /cygdrive/f/git/WeixinBot-master/saved/msgimgsbydata/2016-09-17/img_4747272713962389106.jpg
+[2016-09-17 18:37:38] |PaperWeekly交流群| burness@ucloud -> GROUP: 等下给你发下，我现在在搞这个，有点问题
+[2016-09-17 18:37:40] |PaperWeekly交流群| Jeremy -> GROUP: Theano可以多卡？
+[2016-09-17 18:40:18] |PaperWeekly交流群| burness@ucloud -> GROUP:  a test message from weixinbot
+[2016-09-17 18:51:10] |PaperWeekly交流群| Jeremy -> GROUP: 没用过caffe
+[2016-09-17 18:51:11] |PaperWeekly交流群| 三岁小孩 -> GROUP: web微信有api吗
+[2016-09-17 18:51:11] |PaperWeekly交流群| 三岁小孩 -> GROUP: 没有找到
+[2016-09-17 18:51:27] |PaperWeekly交流群| 三岁小孩 -> GROUP: caffe可以多卡
+[2016-09-17 18:51:43] |PaperWeekly交流群| burness@ucloud -> GROUP: 有的，
+[2016-09-17 18:52:50] |PaperWeekly交流群| 三岁小孩 -> GROUP: 那是自己写的函数吧？
+[2016-09-17 18:52:58] |PaperWeekly交流群| burness@ucloud -> GROUP: 就是基于web的api
+[2016-09-17 18:54:41] |PaperWeekly交流群| 叶正 -> GROUP: 这个占
+[2016-09-17 18:54:49] |PaperWeekly交流群| 叶正 -> GROUP: 赞
+[2016-09-17 18:55:05] |PaperWeekly交流群| 三岁小孩 -> GROUP: 官方提供了接口吗
+[2016-09-17 19:04:04] |PaperWeekly交流群| 三岁小孩 -> GROUP: 这个是不是1群消息发到二群，2群消息发到1群
+[2016-09-17 19:05:23] |PaperWeekly交流群| burness@ucloud -> GROUP: @bot 问下他呗，我今天也在研究这个，没想到他们早搞定了
+[2016-09-17 19:05:40] |PaperWeekly交流群| 碱馒头 -> GROUP: @三岁小孩 是的
+[2016-09-17 19:06:11] |PaperWeekly交流群| 碱馒头 -> GROUP: 就是自动转发一下
+[2016-09-17 19:26:07] |PaperWeekly交流群| 文 -> GROUP: PaperWeekly交流群 发送了一张图片: /cygdrive/f/git/WeixinBot-master/saved/msgimgsbydata/2016-09-17/img_1953654398587127284.jpg
+[2016-09-17 19:26:31] |PaperWeekly交流群| 文 -> GROUP: 帮我找篇文章，多谢
+[2016-09-17 19:34:18] |PaperWeekly交流群| 薛明-NLP -> GROUP: 最近也打算配台工作站 希望硬件竟然能在国内买好 有搞过的大神麻烦分享一下哈 [抱拳]
+[2016-09-17 19:35:00] |PaperWeekly交流群| Jeremy -> GROUP: dl需要搞交火吗？
+[2016-09-17 19:35:21] |PaperWeekly交流群| Jeremy -> GROUP: 感觉好像没人这么用啊
+[2016-09-17 19:35:41] |PaperWeekly交流群| 叶正 -> GROUP: 我知道一家不靠谱
+[2016-09-17 19:37:14] |PaperWeekly交流群| ucl weijie -> GROUP: 可以4卡的
+[2016-09-17 19:37:33] |PaperWeekly交流群| ucl weijie -> GROUP: 官方解锁就好
+[2016-09-17 19:37:34] |PaperWeekly交流群| ucl weijie -> GROUP: 1080
+[2016-09-17 19:37:54] |PaperWeekly交流群| Jeremy -> GROUP: 用4块卡交火之后效果如何啊？
+[2016-09-17 20:36:22] |PaperWeekly交流群| 张俊 -> GROUP: 各位给推荐个python bbs 开源代码 满足基本功能就成 
+[2016-09-17 20:37:28] |PaperWeekly交流群| guangbao -> GROUP: https://oschina.net/project/tag/66/bbs?sort=view&amp;lang=25&amp;os=0
+[2016-09-17 20:40:49] |PaperWeekly交流群| 种瓜 -> GROUP: bbs应用，discourse（http://www.discourse.org/）极其简约、现代化，对markdown支持也极好。可惜是ruby写的
+[2016-09-17 20:42:04] |PaperWeekly交流群| 种瓜 -> GROUP: 新近有个python bbs不错，python-china在用，很简约，这是网站：https://python-china.org/
+[2016-09-17 20:42:14] |PaperWeekly交流群| 种瓜 -> GROUP: 这是源码：https://github.com/lepture/zerqu
+[2016-09-17 20:43:36] |PaperWeekly交流群| 种瓜 -> GROUP: 已经docker化，也提供ansible脚本，部署起来也不麻烦
+[2016-09-17 20:43:47] |PaperWeekly交流群| 张俊 -> GROUP: <span class="emoji emoji1f44d"></span>
+[2016-09-17 20:45:11] |PaperWeekly交流群| 种瓜 -> GROUP: bbs类的应用，python社区确实不多，nodejs和ruby社区成熟应用最多，其中又以discourse一骑绝尘，udacity之类的讨论组都基于discourse，部署也都docker化，几分钟便可
+[2016-09-17 20:45:41] |PaperWeekly交流群| 张俊 -> GROUP: 想做这么个事情 
+[2016-09-17 20:45:53] |PaperWeekly交流群| 张俊 -> GROUP: 把bbs和微信群通过bot打通
+[2016-09-17 20:46:05] |PaperWeekly交流群| 种瓜 -> GROUP: 我喜欢python，不过论坛的话，discourse确实值得一看
+[2016-09-17 20:46:08] |PaperWeekly交流群| 张俊 -> GROUP: 有ruby程序员吗？
+[2016-09-17 20:46:14] |PaperWeekly交流群| 种瓜 -> GROUP: 哈哈 微信部分用wxbot就可以打通啦
+[2016-09-17 20:46:34] |PaperWeekly交流群| 张俊 -> GROUP: bbs也得有人会改哈
+[2016-09-17 20:46:54] |PaperWeekly交流群| 种瓜 -> GROUP: 确是呢
+[2016-09-17 20:47:21] |PaperWeekly交流群| 种瓜 -> GROUP: discourse确实太诱人，我一般也偏好python写的东西，对语言熟悉好维护
+[2016-09-17 20:48:44] |PaperWeekly交流群| 张俊 -> GROUP: 嗯嗯
+[2016-09-17 20:51:52] |PaperWeekly交流群| 种瓜 -> GROUP: PaperWeekly交流群 发送了一张图片: /cygdrive/f/git/WeixinBot-master/saved/msgimgsbydata/2016-09-17/img_6277339760743308645.jpg
+[2016-09-17 20:52:13] |PaperWeekly交流群| guangbao -> GROUP: 这代码改起来比较痛苦把。。discourse 
+[2016-09-17 20:52:41] |PaperWeekly交流群| 种瓜 -> GROUP: flaskbb和Misago也值得一看，前者基于flask，后者基于django，社区里开发者都比较多
+[2016-09-17 20:53:21] |PaperWeekly交流群| 张俊 -> GROUP: 试了一下misago感觉还不错 看看有没有更好的
+[2016-09-17 20:53:27] |PaperWeekly交流群| 种瓜 -> GROUP: discourse的拓展机制设计的比较完备的，直接侵入源码的情况应该很少的
+[2016-09-17 20:54:21] |PaperWeekly交流群| guangbao -> GROUP: flask和django的应该也还不错。。[呲牙]
+[2016-09-17 20:55:25] |PaperWeekly交流群| 种瓜 -> GROUP: 是啊是啊
+[2016-09-17 20:55:52] |PaperWeekly交流群| 种瓜 -> GROUP: 想起来v2ex的源码也是开发的，基于python
+[2016-09-17 20:56:00] |PaperWeekly交流群| 种瓜 -> GROUP: https://github.com/livid/v2ex
+[2016-09-17 20:56:15] |PaperWeekly交流群| guangbao -> GROUP: 嗯。。 reddit也是开源的
+[2016-09-17 20:56:43] |PaperWeekly交流群| 种瓜 -> GROUP: 哈哈 正是
+[2016-09-17 20:57:09] |PaperWeekly交流群| 张俊 -> GROUP: reddit 会不会太重了？
+[2016-09-17 20:57:10] |PaperWeekly交流群| 张俊 -> GROUP: [呲牙]
+[2016-09-17 20:57:31] |PaperWeekly交流群| guangbao -> GROUP: 是的。。 哈哈  v2ex倒是可以考虑。
+[2016-09-17 20:57:57] |PaperWeekly交流群| 张俊 -> GROUP: 我看看v2ex
+[2016-09-17 20:58:11] |PaperWeekly交流群| 张俊 -> GROUP: paperweekly.club:3200
+[2016-09-17 20:58:28] |PaperWeekly交流群| 张俊 -> GROUP: http://paperweekly.club:3200
+[2016-09-17 20:58:40] |PaperWeekly交流群| 张俊 -> GROUP: PaperWeekly交流群 撤回了一条消息
+[2016-09-17 21:00:01] |PaperWeekly交流群| 张俊 -> GROUP: 这个是misago的效果
+[2016-09-17 21:00:39] |PaperWeekly交流群| 种瓜 -> GROUP: 动作好快[呲牙]
+[2016-09-17 21:00:52] |PaperWeekly交流群| guangbao -> GROUP: UI没所谓吧。。能用就成？
+[2016-09-17 21:00:52] |PaperWeekly交流群| 种瓜 -> GROUP: 看去挺好的
+[2016-09-17 21:01:15] |PaperWeekly交流群| 张俊 -> GROUP: 看着不丑 能用就行
+[2016-09-17 21:01:15] |PaperWeekly交流群| 张俊 -> GROUP: 主要是方便大家交流
+[2016-09-17 21:03:00] |PaperWeekly交流群| 种瓜 -> GROUP: 这个论坛用的django，我对django还挺熟的，要是需要修改，愿意参与[呲牙]
+[2016-09-17 21:03:43] |PaperWeekly交流群| 张俊 -> GROUP: <span class="emoji emoji1f44d"></span><span class="emoji emoji1f44d"></span>
+[2016-09-17 21:03:44] |PaperWeekly交流群| 张俊 -> GROUP: v2ex？
+[2016-09-17 21:03:44] |PaperWeekly交流群| guangbao -> GROUP: +1 
+[2016-09-17 21:05:09] |PaperWeekly交流群| 种瓜 -> GROUP: misago用的django啊
+[2016-09-17 21:05:23] |PaperWeekly交流群| 张俊 -> GROUP: <span class="emoji emoji1f44c"></span>
+[2016-09-17 22:33:09] |PaperWeekly交流群| 脑洞菌 -> GROUP: @张俊 我记得unblockyouku作者搭过一个论坛，貌似不错
+[2016-09-17 22:33:44] |PaperWeekly交流群| 脑洞菌 -> GROUP: 也是某个开源软件，应该还可以和github互通？
+[2016-09-17 22:34:07] |PaperWeekly交流群| 脑洞菌 -> GROUP: 以防以后有传文件的需求，可以直接传到github上
+[2016-09-17 22:53:44] |PaperWeekly交流群| 张俊 -> GROUP: @脑洞菌  谢谢哈 
+[2016-09-17 23:00:24] |PaperWeekly交流群| daiwk -> GROUP: 到时有了3群4群 会不会bot也晕了。。
+[2016-09-17 23:04:34] |PaperWeekly交流群| 碱馒头 -> GROUP: Bot不晕 我们肯定晕了<span class="emoji emoji1f637"></span>……
+[2016-09-18 08:20:32] |PaperWeekly交流群| dqq -> GROUP: <span class="emoji emoji1f639"></span>
+[2016-09-18 08:20:44] |PaperWeekly交流群| dqq -> GROUP: 辛苦bot...
+[2016-09-18 08:27:26] |PaperWeekly交流群| 王伟 -> GROUP: 有点穿越号感
+[2016-09-18 09:27:26] |PaperWeekly交流群| 张俊 -> GROUP: PaperWeekly交流群 分享了一个链接: {"url": "http://mp.weixin.qq.com/s?__biz=MzIwMTc4ODE0Mw==&amp;mid=2247483914&amp;idx=1&amp;sn=95f18027b351c6678ee603429e5dac4d&amp;scene=1&amp;srcid=0918V4Bo5YjwswmY2k12Ae3G#rd", "appname": "\u672a\u77e5", "description": "\u5927\u5bb6\u6628\u5929\u53c2\u4e0e\u7684\u6295\u7968\u7ed3\u679c", "title": "paperweekly\u7528\u6237\u6295\u7968\u603b\u7ed3"}
+[2016-09-18 09:28:00] |PaperWeekly交流群| 张俊 -> GROUP: 昨天大家投票的结果 简单总结了下 感谢大家的投票[呲牙]
+[2016-09-18 09:28:38] |PaperWeekly交流群| crg -> GROUP: [强]
+[2016-09-18 09:29:31] |PaperWeekly交流群| Neo -> GROUP: 人工智能太偏重于人工一词，离智能太远，离智障太近
+[2016-09-18 09:29:32] |PaperWeekly交流群| 花花～ -> GROUP: 辛苦啦<span class="emoji emoji1f604"></span> 
+[2016-09-18 09:29:33] |PaperWeekly交流群| Neo -> GROUP: 这句话说得太对了
+[2016-09-18 09:37:38] |PaperWeekly交流群| prompt -> GROUP: 大家有什么好的学术公众号推荐嘛[呲牙][调皮]
+[2016-09-18 09:43:06] |PaperWeekly交流群| prompt -> GROUP: PaperWeekly交流群 分享了一个链接: {"url": "http://mp.weixin.qq.com/s?__biz=MjM5ODkzMzMwMQ==&amp;mid=2650408218&amp;idx=1&amp;sn=baf2a359ffaffe38c2046c602f71c971&amp;scene=1&amp;srcid=09187Ox8VwDpJTA7UKBJbtA9#rd", "appname": "\u672a\u77e5", "description": "1. Yoshua Bengio\u6700\u65b0\u6f14\u8bb2\uff1aAttention \u8ba9\u6df1\u5ea6\u5b66\u4e60\u53d6\u5f97\u5de8\u5927\u6210\u529f \u3010\u65b0\u667a\u5143\u5bfc\u8bfb\u3011\u673a\u5668\u7ffb\u8bd1", "title": "\u5fae\u535a\u4e25\u900920160517\uff1a\u673a\u5668\u5b66\u4e60\u77e5\u8bc6\u56fe\u8c31 &amp;amp; \u673a\u5668\u5b66\u4e60\u76f8\u5173\u8bfe\u7a0b"}
+[2016-09-18 09:43:09] |PaperWeekly交流群| 杨雪峰 -> GROUP: NMT是什么的缩写呀
+[2016-09-18 09:43:37] |PaperWeekly交流群| 王昊奋-知识图谱-Gowild -> GROUP: Neural Machine Translation :)
+[2016-09-18 09:43:50] |PaperWeekly交流群| 赵巍 -> GROUP: Neural Machine Translation 
+[2016-09-18 09:43:55] |PaperWeekly交流群| 王昊奋-知识图谱-Gowild -> GROUP: 相对SMT而言
+[2016-09-18 09:44:18] |PaperWeekly交流群| prompt -> GROUP: 大家可以看这这个公众号以前的一些文章，如果对大家有价值的话[呲牙]
+[2016-09-18 09:48:06] |PaperWeekly交流群| 郭少卿 -> GROUP: 各位大牛，我想请教一下，现在经常提的基于attention是怎么样一个概念？
+[2016-09-18 09:48:15] |PaperWeekly交流群| 郭少卿 -> GROUP: 有没有入门之类的论文？
+[2016-09-18 09:48:18] |PaperWeekly交流群| 郭少卿 -> GROUP: 谢谢
+[2016-09-18 09:52:47] |PaperWeekly交流群| 郭同jet<span class="emoji emoji26a1"></span><span class="emoji emoji1f48e"></span> -> GROUP: 同问
+[2016-09-18 09:53:50] |PaperWeekly交流二群| 卢晓东 -> GROUP: 前段时间有几个deep learning 做对话的综述
+[2016-09-18 09:54:12] |PaperWeekly交流群| 杨雪峰 -> GROUP: 谢谢王老师, 哈哈哈
+[2016-09-18 09:56:26] |PaperWeekly交流群| Jeremy -> GROUP: 就看大家都引的那个
+[2016-09-18 09:56:54] |PaperWeekly交流群| Jeremy -> GROUP: Neural machine translation by jointly xxx
+[2016-09-18 09:57:07] |PaperWeekly交流群| Jeremy -> GROUP: Google一下后面就出来了<span class="emoji emoji1f639"></span>
+[2016-09-18 09:57:32] |PaperWeekly交流群| 郭少卿 -> GROUP: 是这个文章中，提出了基于attention的概念么？
+[2016-09-18 09:57:57] |PaperWeekly交流群| 张俊 -> GROUP: Effective approaches to attention not
+[2016-09-18 09:57:58] |PaperWeekly交流群| 郭少卿 -> GROUP: 谢谢
+[2016-09-18 09:58:00] |PaperWeekly交流群| 张俊 -> GROUP: 早期都是在nmt这块提出来的
+[2016-09-18 09:58:02] |PaperWeekly交流群| 凤凰院别针 -> GROUP: 是第一次结合到seq2seq
+[2016-09-18 09:58:19] |PaperWeekly交流群| ♚Igor -> GROUP: 初次理解看这个http://www.wildml.com/2016/01/attention-and-memory-in-deep-learning-and-nlp/
+[2016-09-18 09:58:37] |PaperWeekly交流群| 凤凰院别针 -> GROUP: 早期在cv提出可以看 Recurrent Models of Visual Attention
+[2016-09-18 09:59:24] |PaperWeekly交流群| 小虎牙-相关性-ali -> GROUP: 我好想看过这个
+[2016-09-18 10:00:03] |PaperWeekly交流群| 郭少卿 -> GROUP: 谢谢
+[2016-09-18 10:00:14] |PaperWeekly交流群| 赵巍 -> GROUP: PaperWeekly交流群 分享了一个链接: {"url": "http://www.wildml.com/2016/01/attention-and-memory-in-deep-learning-and-nlp/", "appname": "\u672a\u77e5", "description": "http://www.wildml.com/2016/01/attention-and-memory-in-deep-learning-and-nlp/", "title": "Attention and Memory in Deep Learning and NLP \u2013 WildML"}
+[2016-09-18 10:00:45] |PaperWeekly交流群| 小虎牙-相关性-ali -> GROUP: 这个写的不错
+[2016-09-18 10:00:47] |PaperWeekly交流群| 赵巍 -> GROUP: 这篇介绍不错
+[2016-09-18 10:00:48] |PaperWeekly交流群| 小虎牙-相关性-ali -> GROUP: 我看过
+[2016-09-18 10:00:56] |PaperWeekly交流群| ♚Igor -> GROUP: 他的博客我一直在追……
+[2016-09-18 10:01:00] |PaperWeekly交流群| 小虎牙-相关性-ali -> GROUP: attention 最原始的论文 谁有
+[2016-09-18 10:04:01] |PaperWeekly交流群| ♚Igor -> GROUP: 这你得根据综述的引文找了吧，说不定最开始提出的时候也不叫这名
+[2016-09-18 10:05:51] |PaperWeekly交流群| 小虎牙-相关性-ali -> GROUP: 嗯 
+[2016-09-18 10:06:00] |PaperWeekly交流群| 小虎牙-相关性-ali -> GROUP: 想找几篇看看
+[2016-09-18 10:06:50] |PaperWeekly交流群| 小虎牙-相关性-ali -> GROUP: 有推荐吗 @♚Igor 
+[2016-09-18 10:09:35] |PaperWeekly交流群| ♚Igor -> GROUP: 我只是看了几篇应用的论文，原始论文没看过……
+[2016-09-18 10:15:35] |PaperWeekly交流群| 猫猫猫曲项向天喵 -> GROUP: @小虎牙-相关性-ali 原始的名字叫neural translation model joint learning alignment 什么什么的
+[2016-09-18 10:15:43] |PaperWeekly交流群| 张俊 -> GROUP: @小虎牙-相关性-ali  就是nmt那几篇 你可以google下 
+[2016-09-18 10:16:21] |PaperWeekly交流群| 小虎牙-相关性-ali -> GROUP: 好的~
+[2016-09-18 10:16:59] |PaperWeekly交流群| 小虎牙-相关性-ali -> GROUP: Neural Machine Translation by Jointly Learning to Align and Translate
+[2016-09-18 10:17:21] |PaperWeekly交流群| 小虎牙-相关性-ali -> GROUP: 能上google 也是很幸福的事情啊
+[2016-09-18 10:17:31] |PaperWeekly交流群| 猫猫猫曲项向天喵 -> GROUP: @小虎牙-相关性-ali 对的，应该是这篇
+[2016-09-18 10:21:08] |PaperWeekly交流群| Danny -> GROUP: PaperWeekly交流群 发送了一张图片: /cygdrive/f/git/WeixinBot-master/saved/msgimgsbydata/2016-09-18/img_5692540366575636554.jpg
+[2016-09-18 11:49:39] |PaperWeekly交流二群| 张俊 -> GROUP: 各位童鞋有想一起来写文章的话 可以私信我
+[2016-09-18 11:55:06] |PaperWeekly交流群| Caro Mio Ben -> GROUP: 写文章？
+[2016-09-18 11:55:41] |PaperWeekly交流群| e|月德 -> GROUP: 是要一起做试验然后写papter吗？
+[2016-09-18 11:57:19] |PaperWeekly交流群| 张俊 -> GROUP: paperweekly的文章哈
+[2016-09-18 11:57:29] |PaperWeekly交流群| 张俊 -> GROUP: 不是一起发表文章
+[2016-09-18 11:58:09] |PaperWeekly交流群| 花花～ -> GROUP: 有哪些要求吗<span class="emoji emoji1f60a"></span> 
+[2016-09-18 11:58:16] |PaperWeekly交流群| __future__ i0.lt -> GROUP: 哈哈哈，一起发表论文吗
+[2016-09-18 11:58:38] |PaperWeekly交流群| __future__ i0.lt -> GROUP: 给挂个四作就行
+[2016-09-18 11:59:03] |PaperWeekly交流群| 郑耀宏 -> GROUP: 哈哈哈
+[2016-09-18 11:59:42] |PaperWeekly交流群| 郑耀宏 -> GROUP: 还有人拿周老师的西瓜书当头像的
+[2016-09-18 11:59:59] |PaperWeekly交流群| 郑耀宏 -> GROUP: 真爱粉
+[2016-09-18 12:00:17] |PaperWeekly交流群| 花花～ -> GROUP: 好看呀<span class="emoji emoji1f604"></span> 
+[2016-09-18 12:00:51] |PaperWeekly交流群| 郑耀宏 -> GROUP: 习题做不出来
+[2016-09-18 12:01:03] |PaperWeekly交流群| 郑耀宏 -> GROUP: 你刷西瓜书的习题不
+[2016-09-18 12:01:03] |PaperWeekly交流群| 张俊 -> GROUP: @花花～  可私聊
+[2016-09-18 12:03:55] |PaperWeekly交流群| Yanxing Hu -> GROUP: UL CMIX is Accepting Graduate Applications for Spring 2017 (by 10/15)The School of Computing and Informatics (CMIX) at the University of Louisiana at Lafayette (USA) seeks applicants for our graduate programs, including masters and doctoral degrees in both computer science and computer engineering. Nearly all doctoral students are supported by some type of assistantship. Doctoral students making satisfactory progress on their degrees can receive School support for up to 4 years, and possibly longer research support from their advisers. Preference for assistantships is given to doctoral applicants with prior research experience.CMIX consists of the Center for Advanced Computer Studies (CACS), the Computer Science program and the Informatics program. Our faculty (including 3 IEEE Fellows) are involved in the forefront of research in Big Data Analytics, Wireless Computing, Health Informatics, Artificial Intelligence, and VLSI, with diverse topic areas and various funded projects.  Motivated individuals in any area of computer science and computer engineering are encouraged to apply.For full assistantship consideration, the application deadline is October 15, 2016 for spring 2017 admission, and February 15, 2017 for fall 2017 admission.More information about our graduate programs and admission requirements is available at: http://cmix.louisiana.edu. Instructions to apply can be found at: http://gradschool.louisiana.edu.Located midway between New Orleans and Houston, Lafayette is the heart of Louisiana's Acadian-Creole region. The city of over 122,000 is part of the Lafayette-Acadiana area with a total population of 550,000, and is one of Louisiana's fastest-growing metropolitan areas. Lafayette serves as the base of Louisiana's offshore oil industry, as well as the financial, retail, and medical center for South-Central Louisiana.For further information: email cmixgradcttee-list@louisiana.edu.
+[2016-09-18 12:04:29] |PaperWeekly交流群| Yanxing Hu -> GROUP: 吴信东老师那边的phd 
+[2016-09-18 12:06:21] |PaperWeekly交流二群| 又春 -> GROUP: 昨天周老师来交大讲座 想拿西瓜书去要签名 结果他走的太快了 没赶上[冷汗]
+[2016-09-18 12:07:13] |PaperWeekly交流群| myQway -> GROUP: 我没带书去。。。
+[2016-09-18 15:11:18] |PaperWeekly交流群| __future__ i0.lt -> GROUP: python那个管理git的包叫什么名字，上次在知乎看到有人提过
+[2016-09-18 15:12:56] |PaperWeekly交流群| Danny -> GROUP: 北京 北京 北京急需自然语言处理相关人才，有意者小窗哈
+[2016-09-18 15:14:55] |PaperWeekly交流群| __future__ i0.lt -> GROUP: red bag呢
+[2016-09-18 15:16:36] |PaperWeekly交流群| Danny -> GROUP: 可谈
+[2016-09-18 15:17:16] |PaperWeekly交流群| ucl weijie -> GROUP: 红包呢？
+[2016-09-18 15:18:14] |PaperWeekly交流群| 猫猫猫曲项向天喵 -> GROUP: red bag 2333333
+[2016-09-18 15:18:51] |PaperWeekly交流群| Danny -> GROUP: 3加客户都要  看经验
+[2016-09-18 15:18:56] |PaperWeekly交流群| Danny -> GROUP: 坦白和你们说
+[2016-09-18 15:19:01] |PaperWeekly交流群| Danny -> GROUP: 目前薪资基础上合理增长
+[2016-09-18 15:19:18] |PaperWeekly交流群| Danny -> GROUP: 趁着你们没聊学术的时候 发个小广告
+[2016-09-18 15:19:38] |PaperWeekly交流二群| ·T···Home -> GROUP: 支持威武有希望了
+[2016-09-18 15:21:29] |PaperWeekly交流群| 颜颖🏹 -> GROUP: PaperWeekly交流群 发送了一张图片: /cygdrive/f/git/WeixinBot-master/saved/msgimgsbydata/2016-09-18/img_5315206911201161603.jpg
+[2016-09-18 15:21:48] |PaperWeekly交流群| 颜颖🏹 -> GROUP: 这个方框中的式子是什么意思？哪位好心人帮我解答一下
+[2016-09-18 15:23:02] |PaperWeekly交流二群| ·T···Home -> GROUP: 本质就是最小二乘吧
+[2016-09-18 15:24:01] |PaperWeekly交流群| 颜颖🏹 -> GROUP: 直观解释是什么
+[2016-09-18 15:25:10] |PaperWeekly交流群| 猫猫猫曲项向天喵 -> GROUP: 就是直接解min ||Ax-b||得到的解可能不稳定，所以希望找到这样一个x: 给A和b加上小的扰动，使得当A和b在一个小范围内变化时，这个解x都能使得 ||(A+dA)x - (b+db)||比较小
+[2016-09-18 15:26:27] |PaperWeekly交流群| xundong wu -> GROUP: 里头有margin部分
+[2016-09-18 15:26:44] |PaperWeekly交流群| 颜颖🏹 -> GROUP: 那第二个max怎么解释？
+[2016-09-18 15:26:52] |PaperWeekly交流群| 猫猫猫曲项向天喵 -> GROUP: 就像投篮，你按某个角度和速度投出去就可以进球。但是有些角度和速度的组合比较robust（比如45°斜向上那样），选这样的组合即使投的时候角度稍微偏了一点也可以进，但是有些角度和速度稍微偏一点点就会砸到篮筐
+[2016-09-18 15:28:02] |PaperWeekly交流群| 小李 -> GROUP: [强]
+[2016-09-18 15:28:34] |PaperWeekly交流群| 猫猫猫曲项向天喵 -> GROUP: max就是控制一下误差的范围嘛，min max就是要最大值最小，就是说不管dA和db怎么变，||(A+dA)x-(b+db)||都不超过某个范围
+[2016-09-18 15:29:17] |PaperWeekly交流群| 猫猫猫曲项向天喵 -> GROUP: 因为dA和db是噪声项，是随机的。每一种dA和db的组合都会导致 (A+dA)x 和 b+db 之间有一个误差
+[2016-09-18 15:29:42] |PaperWeekly交流群| 猫猫猫曲项向天喵 -> GROUP: 我们希望这个误差有一个上界（在最坏情形下的误差都足够小）
+[2016-09-18 15:31:15] |PaperWeekly交流群| 颜颖🏹 -> GROUP: 哇，解释的好棒！@@猫猫猫曲项向天喵 谢谢<span class="emoji emoji1f64f"></span>
+[2016-09-18 15:45:26] |PaperWeekly交流群| Danny -> GROUP: 没有人找我么 那我等会再问下
+[2016-09-18 17:44:12] |PaperWeekly交流群| 军临天下 -> GROUP: @猫猫猫曲项向天喵 [强]
+[2016-09-18 19:28:04] |PaperWeekly交流群| ucl weijie -> GROUP: https://medium.com/@acrosson/building-a-deep-learning-box-d17d97e2905c#.52p4n3lx1
+[2016-09-18 19:28:04] |PaperWeekly交流群| ucl weijie -> GROUP: Building a Deep Learning Box
+[2016-09-18 19:28:29] |PaperWeekly交流群| ucl weijie -> GROUP: 1080 * 4的
+[2016-09-18 19:49:27] |PaperWeekly交流二群| Paul -> GROUP: 三篇看完了，挺有趣的文章，用虚拟化gpu的方法绕开nvidia驱动，就是不知道这种方法是不是主流。
+[2016-09-18 19:52:06] |PaperWeekly交流二群| Paul -> GROUP: 而且显卡驱动配置的过程有点复杂，实际在配置的时候出错会很麻烦。
+[2016-09-18 20:52:15] |PaperWeekly交流群| 十亿少女的梦 -> GROUP: 超矩形 是指 立方体的意思吗
+[2016-09-18 20:53:33] |PaperWeekly交流群| 猫猫猫曲项向天喵 -> GROUP: 看上下文吧，也可能是N维的
+[2016-09-18 20:54:25] |PaperWeekly交流群| 十亿少女的梦 -> GROUP: 这里的话，如果k为3，那么k维超矩形区域其实是指立方体的意思是吗
+[2016-09-18 20:54:39] |PaperWeekly交流群| 十亿少女的梦 -> GROUP: PaperWeekly交流群 发送了一张图片: /cygdrive/f/git/WeixinBot-master/saved/msgimgsbydata/2016-09-18/img_3652310757230824355.jpg
+[2016-09-18 20:56:12] |PaperWeekly交流群| 十亿少女的梦 -> GROUP: @猫猫猫曲项向天喵  喵喵，求解答
+[2016-09-18 20:56:52] |PaperWeekly交流群| 猫猫猫曲项向天喵 -> GROUP: 是的
+[2016-09-18 20:57:18] |PaperWeekly交流群| 十亿少女的梦 -> GROUP: 帅
+[2016-09-18 22:49:19] |PaperWeekly交流群| 高少侠 -> GROUP: PaperWeekly交流群 发送了一张图片: /cygdrive/f/git/WeixinBot-master/saved/msgimgsbydata/2016-09-18/img_1726206392610746075.jpg
+[2016-09-19 09:58:19] |PaperWeekly交流群| 陈哲乾 -> GROUP: 各位前辈，有没比较好的关于用户画像的paper推荐
+[2016-09-19 09:58:47] |PaperWeekly交流群| 陈哲乾 -> GROUP: 想做些personalized的工作
+[2016-09-19 10:03:54] |PaperWeekly交流群| 陈哲乾 -> GROUP: 或者跟user modeling有关的paper
+[2016-09-19 10:06:01] |PaperWeekly交流群| clone -> GROUP: 做user profile要看你有哪些数据
+[2016-09-19 10:06:26] |PaperWeekly交流群| 陈哲乾 -> GROUP: 我用的是stackexchange公布的数据集
+[2016-09-19 10:06:56] |PaperWeekly交流群| 陈哲乾 -> GROUP: 想做QA
+[2016-09-19 10:08:22] |PaperWeekly交流群| 陈哲乾 -> GROUP: 具体一点，就是想预测用户对答案是否满意
+[2016-09-19 10:08:57] |PaperWeekly交流群| 陈哲乾 -> GROUP: 不同用户评判标准不同， 就需要personalized
+[2016-09-19 10:09:12] |PaperWeekly交流群| 王昊奋-知识图谱-Gowild -> GROUP: 这个和QA没有太大关系，主要是predicting user satisifaction
+[2016-09-19 10:09:24] |PaperWeekly交流群| 小虎牙-相关性-ali -> GROUP: 咱们群是不是应该分成几个方向
+[2016-09-19 10:09:43] |PaperWeekly交流群| 王昊奋-知识图谱-Gowild -> GROUP: 这个是information retrieval里面用户建模和结果用户反馈捕获等方面的工作
+[2016-09-19 10:10:02] |PaperWeekly交流群| 陈哲乾 -> GROUP: 对
+[2016-09-19 10:11:35] |PaperWeekly交流群| 王昊奋-知识图谱-Gowild -> GROUP: SIGIR里面一堆paper
+[2016-09-19 10:11:35] |PaperWeekly交流群| __future__ i0.lt -> GROUP: 有没有人对swig在python和c++程序通信比较了解的，我想问个问题
+[2016-09-19 10:12:07] |PaperWeekly交流群| 王昊奋-知识图谱-Gowild -> GROUP: 包括你这里其实也可以看看recsys，因为在推荐系统中，用户满意度的推荐还是很重要的，特别是community-based或social QA community中，大家做了不少研究
+[2016-09-19 10:12:37] |PaperWeekly交流群| 陈哲乾 -> GROUP: 这倒是，去找推荐系统的论文看看
+[2016-09-19 10:12:43] |PaperWeekly交流群| 陈哲乾 -> GROUP: 你提醒我了
+[2016-09-19 10:15:18] |PaperWeekly交流群| 王昊奋-知识图谱-Gowild -> GROUP: :)
+[2016-09-19 10:15:21] |PaperWeekly交流群| 侯月源 -> GROUP: 说起来我倒是最近想做qa，各位大牛有没有推荐的资料呢
+[2016-09-19 10:15:40] |PaperWeekly交流群| 王昊奋-知识图谱-Gowild -> GROUP: QA么建议先看看watson那套
+[2016-09-19 10:15:46] |PaperWeekly交流群| 王昊奋-知识图谱-Gowild -> GROUP: 有IBM Journal的
+[2016-09-19 10:15:49] |PaperWeekly交流群| 王昊奋-知识图谱-Gowild -> GROUP: 这些是传统的方法
+[2016-09-19 10:15:58] |PaperWeekly交流群| 王昊奋-知识图谱-Gowild -> GROUP: 然后可以再看看paralex和openqa这套
+[2016-09-19 10:16:05] |PaperWeekly交流群| 陈哲乾 -> GROUP: QA数据集我倒是挺推荐你用stackexchange
+[2016-09-19 10:16:07] |PaperWeekly交流群| 王昊奋-知识图谱-Gowild -> GROUP: 还有percy liang的semantic parsing这套
+[2016-09-19 10:16:35] |PaperWeekly交流群| 王昊奋-知识图谱-Gowild -> GROUP: 之后就是现在比如dengli他们做的kb-infobot等基于DL来做的
+[2016-09-19 10:16:50] |PaperWeekly交流群| 王昊奋-知识图谱-Gowild -> GROUP: paperweekly推荐过好多高质量的paper
+[2016-09-19 10:22:35] |PaperWeekly交流群| 侯月源 -> GROUP: 嗯嗯，十分感谢！
+[2016-09-19 10:23:08] |PaperWeekly交流群| 王昊奋-知识图谱-Gowild -> GROUP: 记得学好了写读书笔记在群里分享哦，:)
+[2016-09-19 10:23:14] |PaperWeekly交流群| 李加 -> GROUP: 请教一下做检索式的qa时，如果response集特别大，如何在毫秒内找到response的候选集，论文里没怎么看到，谢谢啦！
+[2016-09-19 10:25:15] |PaperWeekly交流群| 侯月源 -> GROUP: [呲牙]一定的
+[2016-09-19 10:25:16] |PaperWeekly交流群| 侯月源 -> GROUP: 有没有综述性的paper推荐呢@王昊奋-知识图谱-Gowild
+[2016-09-19 10:26:30] |PaperWeekly交流群| 碱馒头 -> GROUP: 碱馒头 分享了一个链接: {"url": "http://mp.weixin.qq.com/s?__biz=MzI3NDExNDY3Nw==&amp;mid=2649764925&amp;idx=1&amp;sn=ad6bf936f042eccd9434a05d79c33ab1&amp;scene=1&amp;srcid=0919A76JIMJCEH31CrtjSa4j#rd", "appname": "\u672a\u77e5", "description": "\u672c\u6587\u4ecb\u7ecd\u4e86\u804a\u5929\u673a\u5668\u4eba\u4e2d\u4e00\u79cd\u7b80\u5355\u9ad8\u6548\u7684\u5bf9\u8bdd\u6a21\u677f\u7ba1\u7406\u4e0e\u5339\u914d\u7cfb\u7edf\u3002", "title": "\u804a\u5929\u673a\u5668\u4eba\u4e2d\u5bf9\u8bdd\u6a21\u677f\u7684\u9ad8\u6548\u5339\u914d\u65b9\u6cd5"}
+[2016-09-19 10:27:32] |PaperWeekly交流群| Danny -> GROUP: idst
+[2016-09-19 10:38:06] |PaperWeekly交流群| 王昊奋-知识图谱-Gowild -> GROUP: PaperWeekly交流群 分享了一个: {"url": "", "appname": "\u672a\u77e5", "description": "\u672a\u77e5", "title": "Question Answering over Knowledge Bases.pdf"}
+[2016-09-19 10:38:42] |PaperWeekly交流群| 王昊奋-知识图谱-Gowild -> GROUP: 这篇综述可以看看
+[2016-09-19 10:38:43] |PaperWeekly交流群| 王昊奋-知识图谱-Gowild -> GROUP: 刘康老师写的
+[2016-09-19 10:38:45] |PaperWeekly交流群| 王昊奋-知识图谱-Gowild -> GROUP: 发表在IEEE Intelligence System上
+[2016-09-19 10:38:46] |PaperWeekly交流群| 王昊奋-知识图谱-Gowild -> GROUP: 关于KB-based QA
+[2016-09-19 10:38:50] |PaperWeekly交流群| 王昊奋-知识图谱-Gowild -> GROUP: 比较全面
+[2016-09-19 10:40:39] |PaperWeekly交流群| 零零發 -> GROUP: [强]
+[2016-09-19 10:41:32] |PaperWeekly交流群| 侯月源 -> GROUP: orz太谢谢了，有点感悟以后写博客向各位汇报一下
+[2016-09-19 10:52:44] |PaperWeekly交流群| 王昊奋-知识图谱-Gowild -> GROUP: [强]
+[2016-09-19 10:58:06] |PaperWeekly交流二群| 又春 SJTU -> GROUP: 最近在考虑做 Community based QA 系统对答案的summarization 
+[2016-09-19 10:58:49] |PaperWeekly交流二群| 又春 SJTU -> GROUP: 不知道大家有什么推荐的paper
+[2016-09-19 11:03:02] |PaperWeekly交流群| 李加 -> GROUP: 多谢多谢，我研究一下
